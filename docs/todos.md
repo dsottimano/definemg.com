@@ -14,7 +14,9 @@ Recovered current source HTML and media into the local sibling `../definemg-resc
 - Confirmed draft starter exclusion and no missing local links or images in the built HTML.
 - Initial desktop/mobile homepage browser check: no broken images, horizontal overflow or page JavaScript errors; mobile navigation opens.
 - Full browser pass: all 36 content routes at 1440px and 390px widths (72 checks), no horizontal overflow, missing images or incorrect heading counts. Reduced-motion animation stops. See `browser-verification.json`.
-- Deployment is pending the launch commit and Cloudflare integration; verify the actual Pages URL after pushing.
+- Production deployed successfully from `ea841ebec2979b27e08230c0c6f30a7b329de99f`: Cloudflare deployment `3003b1b7-122f-48d8-a8e9-ab14f1fbf145`, GitHub check `115489033910`. Staging deployment `2e8c7b44-e512-422c-a5ca-ab0bc1d9f82e` also succeeded.
+- Verified actual https://definemg-com-6aba0b1759de.pages.dev/ in Chrome: new heading, all 35 homepage client logos, no image or JavaScript errors. Main sections and `/admin/` sign-in return 200. All 36 published content routes returned HTTP 200 using curl; see `live-verification.json`. A Python urllib probe was rejected with 403 by the request path/environment, while Chrome and curl succeeded.
+- Handoff-only commit uses Cloudflare’s documented `[CF-Pages-Skip]` prefix to leave the verified launch deployment running. No public site files changed after the launch commit.
 
 Existing package build warnings concern empty author/tag/category collections and a large bundled chunk. These do not block the successful build. CSS animation honors reduced motion. The CMS editor itself was not browser-tested while authenticated.
 
