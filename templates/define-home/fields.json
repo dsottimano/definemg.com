@@ -250,6 +250,34 @@
           "required": false
         }
       ]
+    },
+    {
+      "name": "heroImage",
+      "label": "Hero photograph",
+      "widget": "image",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "heroImageAlt",
+      "label": "Hero photograph description",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "clientTitle",
+      "label": "Client section title",
+      "widget": "string",
+      "group": "Clients",
+      "required": false
+    },
+    {
+      "name": "clientIntro",
+      "label": "Client section introduction",
+      "widget": "text",
+      "group": "Clients",
+      "required": false
     }
   ]
 }

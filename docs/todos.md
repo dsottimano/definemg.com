@@ -1,3 +1,9 @@
+# Publisher-focused homepage revision — 2026-10-13
+
+Requested follow-up: restore the original NYC skyline photo, emphasize publisher clients, and enlarge client logos in their original colors. Homepage copy remains in Pages → English → Home; new skyline and client-section fields belong to `templates/define-home/fields.json`. All 35 homepage logos are retained, ordered with publishers/media first. Original rich-body copy and historical quotes remain intact. Full-color logo styling also applies to Our Work.
+
+Validation: site checker passes with zero errors and the same two reviewed CSS/script advisories. Full Lanza build passes (38 static pages). Chrome checks on the homepage and Our Work at 1440px/390px show all 35 logos loading, no horizontal overflow or JavaScript errors, and computed logo filter `none` / opacity `1`. Homepage logo image boxes increased from 56px to 156px desktop and 40px to 110px phone; the logo files retain their original brand colors. Skyline loads from the rescued original asset. Deployment receipt follows publication. Domain connection and contact delivery remain deferred as recorded below.
+
 # Define Media Group migration — 2026-10-13
 
 ## Current handoff
