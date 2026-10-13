@@ -6,7 +6,7 @@ CMS: Pages → English contains every entry. Services uses `templates/define-ser
 
 Validation: `npm run check:site` passes with zero errors and five reviewed same-origin CSS/JS advisories. Full Lanza build passes with 38 static pages; existing empty-taxonomy and bundle-size warnings remain. Chrome checked all 36 content routes at 1440px and 390px: 72 checks, zero overflow, broken images or JavaScript errors, one H1 per page (`interior-browser-verification.json`). All built local asset/link targets exist. Desktop full-page homepage screenshots from local and existing production are byte-identical (SHA256 `5c6f104bfb5b3c42bf9c08d87f4462a4489636178716ea4544db677971304e0d`). Authenticated CMS editing has not been browser-tested. Shared Lanza software/package was not changed; tenant dependency remains 0.1.28.
 
-Delivery: prepared locally; production verification pending. The remaining domain, email, policy and historical-link tasks below still apply.
+Delivery: source commit `df6726e6ddd5e3fc31febdcc37b9d9c3b3ff4407` pushed to main and staging after reconciliation. Cloudflare production `5fc8ced3-10e6-4834-9bc9-32a55da511f0` and staging `a17b293f-bf2d-44e9-a962-8b1be530c7bf` succeeded. Actual production Services returns the new hero, diagram and stylesheet. Live Chrome validation repeats all 72 desktop/mobile checks with zero failures (`interior-live-verification.json`). TOC anchor navigation and no-JavaScript body/related links verified; Services animation changes from `ds-revolve` to `none` with reduced motion. Superdesign Services draft: https://p.superdesign.dev/draft/0b8645ef-9548-44b9-8830-fcf79f0e0886 . The remaining domain, email, policy and historical-link tasks below still apply.
 
 # Publisher-focused homepage revision — 2026-10-13
 
