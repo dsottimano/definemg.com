@@ -5,9 +5,59 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "Investment advisory",
     "title": "Investment Advisory Services",
-    "intro": ""
+    "intro": "Understand the audience behind the asset. Search expertise for diligence, acquisition strategy and portfolio growth.",
+    "kind": "service",
+    "railLabel": "Explore the service",
+    "relatedTitle": "Related expertise",
+    "relatedLinks": [
+      {
+        "label": "Enterprise SEO",
+        "url": "/services/search-engine-optimization/"
+      },
+      {
+        "label": "Audience Development",
+        "url": "/services/audience-development/"
+      },
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      }
+    ]
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Investment advisory"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "Understand the audience behind the asset. Search expertise for diligence, acquisition strategy and portfolio growth."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Explore the service"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Related expertise"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Enterprise SEO"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Audience Development"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      }
+    }
   }
 }
 ---

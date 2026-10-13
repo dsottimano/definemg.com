@@ -5,12 +5,54 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2013-10-28",
     "title": "iOS 7 Released: Dark Google Changes for the SEO & Analytics Communities",
-    "intro": ""
+    "intro": "How the release of iOS 7 changed the picture for search traffic measurement.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2013-10-28"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "How the release of iOS 7 changed the picture for search traffic measurement."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---

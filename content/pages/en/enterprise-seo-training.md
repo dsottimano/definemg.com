@@ -5,9 +5,67 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "Enterprise SEO training",
     "title": "Enterprise SEO Training",
-    "intro": ""
+    "intro": "Make search part of the everyday workflow, with training built around the people who shape your website.",
+    "kind": "service",
+    "railLabel": "Explore the service",
+    "relatedTitle": "Related expertise",
+    "relatedLinks": [
+      {
+        "label": "Enterprise SEO",
+        "url": "/services/search-engine-optimization/"
+      },
+      {
+        "label": "Audience Development",
+        "url": "/services/audience-development/"
+      },
+      {
+        "label": "Investment Advisory",
+        "url": "/services/investment-advisory-services/"
+      },
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      }
+    ]
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Enterprise SEO training"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "Make search part of the everyday workflow, with training built around the people who shape your website."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Explore the service"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Related expertise"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Enterprise SEO"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Audience Development"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Investment Advisory"
+      },
+      "slots.relatedLinks.3.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      }
+    }
   }
 }
 ---

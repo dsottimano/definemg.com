@@ -5,12 +5,54 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2014-07-15",
     "title": "The 2014 Mid-Year Digital Traffic Report",
-    "intro": ""
+    "intro": "A historical snapshot of search, social and direct traffic across Define’s publisher network.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "With 2014 now more than halfway done, we wanted to provide an update on the major search and social trends we're seeing across our network."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2014-07-15"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "A historical snapshot of search, social and direct traffic across Define’s publisher network."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---

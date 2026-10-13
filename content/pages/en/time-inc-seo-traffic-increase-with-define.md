@@ -5,12 +5,54 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2012-02-07",
     "title": "Case Study: Utilizing Define as Embedded Strategists, Time Inc. Experiences Long-Term Traffic Gains",
-    "intro": ""
+    "intro": "An embedded approach to enterprise SEO, built around the teams and publications at Time Inc.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "As Time Inc.’s embedded strategists, we have helped increase traffic to People, MyRecipes, Real Simple and other Time properties."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2012-02-07"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "An embedded approach to enterprise SEO, built around the teams and publications at Time Inc."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---

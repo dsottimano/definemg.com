@@ -5,12 +5,62 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "In our clients’ words",
     "title": "Client Testimonials",
-    "intro": ""
+    "intro": "Perspectives from the leaders, clients and colleagues who have worked with Define.",
+    "kind": "testimonials",
+    "railLabel": "Client perspectives",
+    "relatedTitle": "Explore Define",
+    "relatedLinks": [
+      {
+        "label": "Our services",
+        "url": "/services/"
+      },
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      },
+      {
+        "label": "Client testimonials",
+        "url": "/our-work/testimonials/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "Define Media Group client testimonials from some of publishing's leading network executives and influencers."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "In our clients’ words"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "Perspectives from the leaders, clients and colleagues who have worked with Define."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Client perspectives"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Explore Define"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Our services"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Client testimonials"
+      }
+    }
   }
 }
 ---

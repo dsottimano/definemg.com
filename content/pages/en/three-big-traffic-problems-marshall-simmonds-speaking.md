@@ -5,12 +5,54 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2013-12-17",
     "title": "Three Really Big Traffic Problems You May Not Know You Have - Video Presentation",
-    "intro": ""
+    "intro": "Marshall Simmonds on the traffic measurement problems hiding in plain sight.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "Marshall Simmonds speaking at SEER Interactive's SearchChurch series talking about the perils of image search, the success of mobile search and how to be aware of changes to safe search."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2013-12-17"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "Marshall Simmonds on the traffic measurement problems hiding in plain sight."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---

@@ -5,9 +5,59 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "Enterprise SEO",
     "title": "Enterprise Search Engine Optimization",
-    "intro": ""
+    "intro": "A practical roadmap for complex websites, from technical analysis and team education to implementation.",
+    "kind": "service",
+    "railLabel": "Explore the service",
+    "relatedTitle": "Related expertise",
+    "relatedLinks": [
+      {
+        "label": "Audience Development",
+        "url": "/services/audience-development/"
+      },
+      {
+        "label": "Investment Advisory",
+        "url": "/services/investment-advisory-services/"
+      },
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      }
+    ]
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Enterprise SEO"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "A practical roadmap for complex websites, from technical analysis and team education to implementation."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Explore the service"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Related expertise"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Audience Development"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Investment Advisory"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      }
+    }
   }
 }
 ---

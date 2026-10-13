@@ -5,12 +5,54 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2015-07-27",
     "title": "Mobilegeddon or: How I Learned to Stop Worrying and Love Our New Mobile World",
-    "intro": ""
+    "intro": "A look back at the mobile search update and the wider shift in how audiences use the web.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2015-07-27"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "A look back at the mobile search update and the wider shift in how audiences use the web."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---

@@ -5,17 +5,60 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2026-06-09",
     "title": "Publishers of the World, Unite!",
-    "intro": ""
+    "intro": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ],
+    "heroImage": "/media/legacy/publishers-unite-hero-image-scaled.webp",
+    "heroImageAlt": "Publishers of the World, Unite!"
   },
   "seo": {
     "metaDescription": "AI Overviews have cut organic search traffic 42%, but breaking news is thriving. Our data reveals how Discover is driving publisher growth in the age of AI."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2026-06-09"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---
 
-<figure><img alt="" decoding="async" loading="lazy" src="/media/legacy/publishers-unite-hero-image-scaled.webp"/></figure>
 <p>The LLMs have caused enough damage. It’s time to take a stand. Here’s our proposal to help publishers fight back.</p>
 <h2 id="tldr"><strong>TL;DR</strong></h2>
 <ol>

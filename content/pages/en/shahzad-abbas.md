@@ -5,21 +5,58 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "AI & search strategy",
     "title": "Shahzad Abbas",
-    "intro": ""
+    "intro": "VP, AI and Search Strategy",
+    "kind": "profile",
+    "railLabel": "Experience & perspective",
+    "relatedTitle": "Meet the team",
+    "relatedLinks": [
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      },
+      {
+        "label": "Our work",
+        "url": "/our-work/"
+      }
+    ],
+    "heroImage": "/media/legacy/shahzad-abbas-headshot-2025-e1760037096944.jpg",
+    "heroImageAlt": "Shahzad Abbas"
   },
   "seo": {
     "metaDescription": "Since joining Define in early 2011, Shahzad has helped shape data-driven marketing strategies for influential brands such as AARP, PwC, Carter’s, The Wall Street Journal and the NBA."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "AI & search strategy"
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Experience & perspective"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Meet the team"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our work"
+      }
+    }
   }
 }
 ---
 
-<div class="define-person" id="person_831254023"><img alt="Shahzad Abbas" decoding="async" loading="lazy" src="/media/legacy/shahzad-abbas-headshot-2025-e1760037096944.jpg"/>
-
-
+<div class="define-person" id="person_831254023">
 <p>VP, AI and Search Strategy</p>
-
 </div>
 <p><strong>VP, AI and Search Strategy, Define Media Group, Inc.</strong></p>
 <p>Through his expertise in AI-powered search and digital marketing, Shahzad helps Define Media Group clients leverage emerging technologies to increase traffic, engagement, conversions and revenue. Since joining Define in early 2011, Shahzad has helped shape data-driven marketing strategies for influential brands such as AARP, PwC, Carter’s, The Wall Street Journal and the NBA.</p>

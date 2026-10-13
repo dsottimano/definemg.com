@@ -5,17 +5,60 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Blog",
+    "eyebrow": "Research & perspectives / 2026-03-09",
     "title": "BREAKING! News Thrives in the Age of AI",
-    "intro": ""
+    "intro": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews.",
+    "kind": "article",
+    "railLabel": "In this article",
+    "relatedTitle": "Continue exploring",
+    "relatedLinks": [
+      {
+        "label": "All research & articles",
+        "url": "/blog/"
+      },
+      {
+        "label": "Our services",
+        "url": "/services/"
+      }
+    ],
+    "heroImage": "/media/legacy/breaking-news-hero-image.jpg",
+    "heroImageAlt": "Breaking News Thrives in the Age of AI - newspaper headline illustration"
   },
   "seo": {
     "metaDescription": "AI Overviews have cut organic search traffic 42%, but breaking news is thriving. Our data reveals how Discover is driving publisher growth in the age of AI."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Research & perspectives / 2026-03-09"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "In this article"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Continue exploring"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "All research & articles"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our services"
+      }
+    }
   }
 }
 ---
 
-<figure><img alt="Breaking News Thrives in the Age of AI - newspaper headline illustration" decoding="async" loading="lazy" src="/media/legacy/breaking-news-hero-image.jpg"/></figure>
 <h2>Summary</h2>
 <ul>
 <li><strong>AI Overviews (AIOs) have reduced clickthrough rates.</strong> Our publishing clients have experienced significant losses from web search since Google released AI Overviews (AIOs). The generative summary experience has led to a -42% organic traffic decline across our portfolio.</li>

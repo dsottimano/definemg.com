@@ -5,12 +5,62 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "Our work",
     "title": "Our Work",
-    "intro": ""
+    "intro": "A history of working alongside publishers, consumer brands and investors on the challenges that shape their audiences.",
+    "kind": "work",
+    "railLabel": "Experience in practice",
+    "relatedTitle": "Explore Define",
+    "relatedLinks": [
+      {
+        "label": "Our services",
+        "url": "/services/"
+      },
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      },
+      {
+        "label": "Client testimonials",
+        "url": "/our-work/testimonials/"
+      }
+    ]
   },
   "seo": {
     "metaDescription": "Define has helped the biggest brands on the web dramatically increase traffic and conversions since the late 1990s. Learn how we can help your brand grow."
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Our work"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "A history of working alongside publishers, consumer brands and investors on the challenges that shape their audiences."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Experience in practice"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Explore Define"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Our services"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Client testimonials"
+      }
+    }
   }
 }
 ---

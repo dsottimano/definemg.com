@@ -1,0 +1,201 @@
+{
+  "name": "define-services",
+  "label": "Define \u2014 Services showcase",
+  "body": true,
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "title",
+      "label": "Headline",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "titleAccent",
+      "label": "Headline accent",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "intro",
+      "label": "Introduction",
+      "widget": "text",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "primaryLabel",
+      "label": "Primary link text",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "primaryUrl",
+      "label": "Primary link destination",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "secondaryLabel",
+      "label": "Secondary link text",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "secondaryUrl",
+      "label": "Secondary link destination",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "diagramCenter",
+      "label": "Diagram center",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "diagramTop",
+      "label": "Diagram top",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "diagramBottom",
+      "label": "Diagram bottom",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "diagramCaption",
+      "label": "Diagram caption",
+      "widget": "string",
+      "group": "Hero",
+      "required": false
+    },
+    {
+      "name": "capabilitiesLabel",
+      "label": "Section label",
+      "widget": "string",
+      "group": "Capabilities",
+      "required": false
+    },
+    {
+      "name": "capabilitiesTitle",
+      "label": "Section heading",
+      "widget": "string",
+      "group": "Capabilities",
+      "required": false
+    },
+    {
+      "name": "capabilitiesIntro",
+      "label": "Section introduction",
+      "widget": "text",
+      "group": "Capabilities",
+      "required": false
+    },
+    {
+      "name": "approachLabel",
+      "label": "Section label",
+      "widget": "string",
+      "group": "Approach",
+      "required": false
+    },
+    {
+      "name": "approachTitle",
+      "label": "Section heading",
+      "widget": "string",
+      "group": "Approach",
+      "required": false
+    },
+    {
+      "name": "approachQuote",
+      "label": "Pull quote",
+      "widget": "string",
+      "group": "Approach",
+      "required": false
+    },
+    {
+      "name": "ctaEyebrow",
+      "label": "Eyebrow",
+      "widget": "string",
+      "group": "Next step",
+      "required": false
+    },
+    {
+      "name": "ctaTitle",
+      "label": "Heading",
+      "widget": "string",
+      "group": "Next step",
+      "required": false
+    },
+    {
+      "name": "ctaIntro",
+      "label": "Introduction",
+      "widget": "text",
+      "group": "Next step",
+      "required": false
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Link text",
+      "widget": "string",
+      "group": "Next step",
+      "required": false
+    },
+    {
+      "name": "ctaUrl",
+      "label": "Link destination",
+      "widget": "string",
+      "group": "Next step",
+      "required": false
+    },
+    {
+      "name": "services",
+      "label": "Services",
+      "widget": "list",
+      "group": "Capabilities",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "widget": "string"
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "widget": "text"
+        },
+        {
+          "name": "label",
+          "label": "Link text",
+          "widget": "string"
+        },
+        {
+          "name": "url",
+          "label": "Destination",
+          "widget": "string"
+        },
+        {
+          "name": "tags",
+          "label": "Specialisms",
+          "widget": "string"
+        }
+      ]
+    }
+  ]
+}

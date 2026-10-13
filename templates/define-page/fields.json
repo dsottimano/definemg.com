@@ -20,6 +20,54 @@
       "label": "Intro",
       "widget": "text",
       "required": false
+    },
+    {
+      "name": "kind",
+      "label": "Page design",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "heroImage",
+      "label": "Featured image",
+      "widget": "image",
+      "required": false
+    },
+    {
+      "name": "heroImageAlt",
+      "label": "Image description",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "relatedTitle",
+      "label": "Related links heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "railLabel",
+      "label": "Page navigation heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "relatedLinks",
+      "label": "Related pages",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "label": "Link label",
+          "widget": "string"
+        },
+        {
+          "name": "url",
+          "label": "Destination",
+          "widget": "string"
+        }
+      ]
     }
   ]
 }

@@ -1,3 +1,13 @@
+# Interior design overhaul — 2026-10-13
+
+Current request: overhaul every interior page while preserving the approved homepage. All 35 interior CMS entries now use tailored layouts: a dedicated Services preset, service detail navigation, portrait-led profiles and team cards, illustrated journal/case-study cards, full-color client gallery, and colored testimonial columns. CSS geometry provides motion with reduced-motion support. Original service copy, profile/article prose and all 15 testimonials are preserved; new editorial introductions carry agent provenance. No email delivery was added.
+
+CMS: Pages → English contains every entry. Services uses `templates/define-services/fields.json`; its hero, strategy-diagram labels, three capability cards and closing CTA are editable slots in `content/pages/en/services.md`. Other interiors use the expanded `templates/define-page/fields.json` contract, including kind, hero imagery and related links. Existing body editing and URL mappings remain intact. Homepage entry, preset and base stylesheet are unchanged.
+
+Validation: `npm run check:site` passes with zero errors and five reviewed same-origin CSS/JS advisories. Full Lanza build passes with 38 static pages; existing empty-taxonomy and bundle-size warnings remain. Chrome checked all 36 content routes at 1440px and 390px: 72 checks, zero overflow, broken images or JavaScript errors, one H1 per page (`interior-browser-verification.json`). All built local asset/link targets exist. Desktop full-page homepage screenshots from local and existing production are byte-identical (SHA256 `5c6f104bfb5b3c42bf9c08d87f4462a4489636178716ea4544db677971304e0d`). Authenticated CMS editing has not been browser-tested. Shared Lanza software/package was not changed; tenant dependency remains 0.1.28.
+
+Delivery: prepared locally; production verification pending. The remaining domain, email, policy and historical-link tasks below still apply.
+
 # Publisher-focused homepage revision — 2026-10-13
 
 Requested follow-up: restore the original NYC skyline photo, emphasize publisher clients, and enlarge client logos in their original colors. Homepage copy remains in Pages → English → Home; new skyline and client-section fields belong to `templates/define-home/fields.json`. All 35 homepage logos are retained, ordered with publishers/media first. Original rich-body copy and historical quotes remain intact. Full-color logo styling also applies to Our Work.

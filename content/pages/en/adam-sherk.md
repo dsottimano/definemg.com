@@ -5,17 +5,53 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "SEO & digital strategy",
     "title": "Adam Sherk",
-    "intro": ""
+    "intro": "VP SEO and Digital Strategy, Define Media Group, Inc.",
+    "kind": "profile",
+    "railLabel": "Experience & perspective",
+    "relatedTitle": "Meet the team",
+    "relatedLinks": [
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      },
+      {
+        "label": "Our work",
+        "url": "/our-work/"
+      }
+    ],
+    "heroImage": "/media/legacy/Adam-Sherk-Define-Media-Group.jpg",
+    "heroImageAlt": "Adam Sherk"
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "SEO & digital strategy"
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Experience & perspective"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Meet the team"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Our work"
+      }
+    }
   }
 }
 ---
 
-<div class="define-person" id="person_1148405216"><img alt="" decoding="async" loading="lazy" src="/media/legacy/Adam-Sherk-Define-Media-Group.jpg"/>
-
-
-</div>
 <p><strong>VP SEO and Digital Strategy, Define Media Group, Inc.</strong></p>
 <p>Adam Sherk is VP SEO and Digital Strategy for Define Media Group. He has worked in digital marketingsince 1996 and has been focused on news search and publisher SEO since 2007.</p>
 <p>At Define Adam serves as an embedded strategist working closely with technical, editorial and marketingteams to expand and improve SEO and AI efforts across the organization.</p>

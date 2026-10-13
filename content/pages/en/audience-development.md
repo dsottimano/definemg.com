@@ -5,9 +5,59 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "",
+    "eyebrow": "Audience development",
     "title": "Audience Development",
-    "intro": ""
+    "intro": "Connect search, content, marketing and business development into a coordinated audience strategy.",
+    "kind": "service",
+    "railLabel": "Explore the service",
+    "relatedTitle": "Related expertise",
+    "relatedLinks": [
+      {
+        "label": "Enterprise SEO",
+        "url": "/services/search-engine-optimization/"
+      },
+      {
+        "label": "Investment Advisory",
+        "url": "/services/investment-advisory-services/"
+      },
+      {
+        "label": "Our executive team",
+        "url": "/team/"
+      }
+    ]
+  },
+  "lanzaProvenance": {
+    "version": 1,
+    "fields": {
+      "slots.eyebrow": {
+        "origin": "agent",
+        "text": "Audience development"
+      },
+      "slots.intro": {
+        "origin": "agent",
+        "text": "Connect search, content, marketing and business development into a coordinated audience strategy."
+      },
+      "slots.railLabel": {
+        "origin": "agent",
+        "text": "Explore the service"
+      },
+      "slots.relatedTitle": {
+        "origin": "agent",
+        "text": "Related expertise"
+      },
+      "slots.relatedLinks.0.label": {
+        "origin": "agent",
+        "text": "Enterprise SEO"
+      },
+      "slots.relatedLinks.1.label": {
+        "origin": "agent",
+        "text": "Investment Advisory"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Our executive team"
+      }
+    }
   }
 }
 ---

@@ -1,1 +1,17 @@
-<div class="df-page"><header class="df-page-hero df-wrap"><p class="df-eyebrow">{{ eyebrow }}</p><h1>{{ title }}</h1>{{#if intro}}<p class="df-page-intro">{{ intro }}</p>{{/if}}<div class="df-rule" aria-hidden="true"></div></header><article class="df-prose post-body df-wrap">{{{ body }}}</article></div>
+<div class="di-page" data-kind="{{ kind }}">
+<header class="di-hero">
+  <div class="di-wrap di-hero-grid">
+    <div class="di-hero-copy"><p class="di-eyebrow">{{ eyebrow }}</p><h1 class="di-title">{{ title }}</h1>{{#if intro}}<p class="di-intro">{{ intro }}</p>{{/if}}</div>
+    <div class="di-hero-visual">{{#if heroImage}}<img class="di-hero-image" src="{{ heroImage }}" alt="{{ heroImageAlt }}" loading="eager">{{/if}}<div class="di-art" aria-hidden="true"><div class="di-art-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="di-art-disc"></div><div class="di-art-axis"></div><span class="di-art-point"></span></div></div>
+  </div>
+  <div class="di-hero-rule" aria-hidden="true"><span></span></div>
+</header>
+<div class="di-wrap di-layout">
+  <aside class="di-rail"><div class="di-rail-inner">
+    {{#if railLabel}}<div class="di-contents" hidden><p class="di-rail-label">{{ railLabel }}</p><nav class="di-contents-nav"></nav></div>{{/if}}
+    {{#if relatedLinks}}<div class="di-related"><p class="di-rail-label">{{ relatedTitle }}</p><nav>{{#each relatedLinks}}<a href="{{ url }}"><span>{{ label }}</span><span aria-hidden="true">↗</span></a>{{/each}}</nav></div>{{/if}}
+    <div class="di-rail-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div></aside>
+  <article class="di-prose">{{{ body }}}</article>
+</div>
+</div>
