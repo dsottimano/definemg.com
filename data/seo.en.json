@@ -1,0 +1,15 @@
+{
+  "siteName": "My Site",
+  "titleTemplate": "%s \u00b7 My Site",
+  "defaultTitle": "My Site",
+  "defaultDescription": "A personal site.",
+  "defaultOgImage": "",
+  "locale": "en_US",
+  "twitter": "",
+  "twitterCreator": "",
+  "organization": {
+    "name": "My Site",
+    "logo": "",
+    "sameAs": []
+  }
+}

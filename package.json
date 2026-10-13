@@ -1,0 +1,12 @@
+{
+  "name": "lanza-tenant",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "lanza build",
+    "dev": "lanza dev"
+  },
+  "dependencies": {
+    "lanza-site": "0.1.27"
+  }
+}

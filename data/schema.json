@@ -1,0 +1,594 @@
+[
+  {
+    "kind": "folder",
+    "name": "posts",
+    "label": "Posts",
+    "labelSingular": "Post",
+    "folder": "content/posts",
+    "body": "rich",
+    "localized": true,
+    "thumbnail": "featuredImage",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Title",
+        "widget": "string"
+      },
+      {
+        "name": "seo",
+        "label": "SEO",
+        "widget": "object",
+        "required": false,
+        "collapsed": true,
+        "fields": [
+          {
+            "name": "metaTitle",
+            "label": "Meta title (overrides title)",
+            "widget": "string",
+            "required": false
+          },
+          {
+            "name": "metaDescription",
+            "label": "Meta description",
+            "widget": "text",
+            "required": false
+          },
+          {
+            "name": "ogImage",
+            "label": "OG / social image",
+            "widget": "image",
+            "required": false
+          },
+          {
+            "name": "canonical",
+            "label": "Canonical URL (override)",
+            "widget": "string",
+            "required": false,
+            "hint": "Leave blank to auto-derive from the page path"
+          },
+          {
+            "name": "ogType",
+            "label": "OG type",
+            "widget": "select",
+            "options": [
+              "website",
+              "article"
+            ],
+            "default": "article",
+            "required": false
+          },
+          {
+            "name": "noindex",
+            "label": "Hide from search engines (noindex)",
+            "widget": "boolean",
+            "default": false,
+            "required": false
+          },
+          {
+            "name": "author",
+            "label": "Author (JSON-LD)",
+            "widget": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "pubDate",
+        "label": "Publish date",
+        "widget": "datetime"
+      },
+      {
+        "name": "updatedDate",
+        "label": "Last updated",
+        "widget": "datetime",
+        "required": false
+      },
+      {
+        "name": "draft",
+        "label": "Draft (uncheck to publish)",
+        "widget": "boolean",
+        "default": true
+      },
+      {
+        "name": "description",
+        "label": "Excerpt",
+        "widget": "text",
+        "required": false
+      },
+      {
+        "name": "featuredImage",
+        "label": "Featured image",
+        "widget": "image",
+        "required": false
+      },
+      {
+        "name": "categories",
+        "label": "Categories",
+        "widget": "relation",
+        "collection": "categories",
+        "multiple": true,
+        "required": false
+      },
+      {
+        "name": "tags",
+        "label": "Tags",
+        "widget": "relation",
+        "collection": "tags",
+        "multiple": true,
+        "required": false
+      },
+      {
+        "name": "author",
+        "label": "Author",
+        "widget": "relation",
+        "collection": "authors",
+        "required": false
+      },
+      {
+        "name": "template",
+        "label": "Template",
+        "widget": "select",
+        "options": [
+          "default",
+          "full-width",
+          "landing"
+        ],
+        "default": "default",
+        "required": false,
+        "hint": "Layout variant: full-width breaks out to the wide measure; landing hides the page title and nav chrome."
+      }
+    ]
+  },
+  {
+    "kind": "folder",
+    "name": "pages",
+    "label": "Pages",
+    "labelSingular": "Page",
+    "folder": "content/pages",
+    "body": "rich",
+    "localized": true,
+    "thumbnail": "featuredImage",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Title",
+        "widget": "string"
+      },
+      {
+        "name": "draft",
+        "label": "Draft (uncheck to publish)",
+        "widget": "boolean",
+        "default": true
+      },
+      {
+        "name": "seo",
+        "label": "SEO",
+        "widget": "object",
+        "required": false,
+        "collapsed": true,
+        "fields": [
+          {
+            "name": "metaTitle",
+            "label": "Meta title (overrides title)",
+            "widget": "string",
+            "required": false
+          },
+          {
+            "name": "metaDescription",
+            "label": "Meta description",
+            "widget": "text",
+            "required": false
+          },
+          {
+            "name": "ogImage",
+            "label": "OG / social image",
+            "widget": "image",
+            "required": false
+          },
+          {
+            "name": "canonical",
+            "label": "Canonical URL (override)",
+            "widget": "string",
+            "required": false,
+            "hint": "Leave blank to auto-derive from the page path"
+          },
+          {
+            "name": "ogType",
+            "label": "OG type",
+            "widget": "select",
+            "options": [
+              "website",
+              "article"
+            ],
+            "default": "website",
+            "required": false
+          },
+          {
+            "name": "noindex",
+            "label": "Hide from search engines (noindex)",
+            "widget": "boolean",
+            "default": false,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "label": "Excerpt",
+        "widget": "text",
+        "required": false
+      },
+      {
+        "name": "featuredImage",
+        "label": "Featured image",
+        "widget": "image",
+        "required": false
+      },
+      {
+        "name": "template",
+        "label": "Layout",
+        "widget": "select",
+        "options": [
+          "default",
+          "full-width",
+          "landing"
+        ],
+        "default": "default",
+        "required": false,
+        "hint": "Layout variant: full-width breaks out to the wide measure; landing hides the page title and nav chrome."
+      },
+      {
+        "name": "preset",
+        "label": "Template",
+        "widget": "preset",
+        "required": false,
+        "hint": "Pick a ready-made page design. When set, the design owns the page and you edit only its slots."
+      },
+      {
+        "name": "slots",
+        "label": "Template content",
+        "widget": "slots",
+        "required": false,
+        "hint": "The editable text/images for the chosen Template. Shape depends on the Template."
+      },
+      {
+        "name": "blocks",
+        "label": "Content blocks",
+        "labelSingular": "Block",
+        "widget": "list",
+        "required": false,
+        "types": [
+          {
+            "name": "hero",
+            "label": "Hero",
+            "fields": [
+              {
+                "name": "heading",
+                "label": "Heading",
+                "widget": "string"
+              },
+              {
+                "name": "subheading",
+                "label": "Subheading",
+                "widget": "text",
+                "required": false
+              },
+              {
+                "name": "image",
+                "label": "Background image",
+                "widget": "image",
+                "required": false
+              },
+              {
+                "name": "ctaText",
+                "label": "Button text",
+                "widget": "string",
+                "required": false
+              },
+              {
+                "name": "ctaUrl",
+                "label": "Button URL",
+                "widget": "string",
+                "required": false
+              }
+            ]
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "fields": [
+              {
+                "name": "body",
+                "label": "Text",
+                "widget": "text"
+              }
+            ]
+          },
+          {
+            "name": "image",
+            "label": "Image",
+            "fields": [
+              {
+                "name": "image",
+                "label": "Image",
+                "widget": "image"
+              },
+              {
+                "name": "alt",
+                "label": "Alt text",
+                "widget": "string",
+                "required": false
+              },
+              {
+                "name": "caption",
+                "label": "Caption",
+                "widget": "string",
+                "required": false
+              }
+            ]
+          },
+          {
+            "name": "gallery",
+            "label": "Gallery",
+            "fields": [
+              {
+                "name": "images",
+                "label": "Images",
+                "widget": "list",
+                "fields": [
+                  {
+                    "name": "image",
+                    "label": "Image",
+                    "widget": "image"
+                  },
+                  {
+                    "name": "alt",
+                    "label": "Alt text",
+                    "widget": "string",
+                    "required": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "cta",
+            "label": "Call to action",
+            "fields": [
+              {
+                "name": "heading",
+                "label": "Heading",
+                "widget": "string",
+                "required": false
+              },
+              {
+                "name": "text",
+                "label": "Text",
+                "widget": "text",
+                "required": false
+              },
+              {
+                "name": "buttonText",
+                "label": "Button text",
+                "widget": "string"
+              },
+              {
+                "name": "buttonUrl",
+                "label": "Button URL",
+                "widget": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "folder",
+    "name": "categories",
+    "label": "Categories",
+    "labelSingular": "Category",
+    "folder": "content/categories",
+    "body": "none",
+    "localized": true,
+    "fields": [
+      {
+        "name": "title",
+        "label": "Name",
+        "widget": "string"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "widget": "text",
+        "required": false
+      },
+      {
+        "name": "parent",
+        "label": "Parent category",
+        "widget": "relation",
+        "collection": "categories",
+        "required": false
+      }
+    ]
+  },
+  {
+    "kind": "folder",
+    "name": "tags",
+    "label": "Tags",
+    "labelSingular": "Tag",
+    "folder": "content/tags",
+    "body": "none",
+    "localized": true,
+    "fields": [
+      {
+        "name": "title",
+        "label": "Name",
+        "widget": "string"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "widget": "text",
+        "required": false
+      }
+    ]
+  },
+  {
+    "kind": "folder",
+    "name": "authors",
+    "label": "Authors",
+    "labelSingular": "Author",
+    "folder": "content/authors",
+    "body": "none",
+    "thumbnail": "avatar",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Name",
+        "widget": "string"
+      },
+      {
+        "name": "bio",
+        "label": "Bio",
+        "widget": "text",
+        "required": false
+      },
+      {
+        "name": "avatar",
+        "label": "Avatar",
+        "widget": "image",
+        "required": false
+      }
+    ]
+  },
+  {
+    "kind": "files",
+    "name": "settings",
+    "label": "Settings",
+    "files": [
+      {
+        "name": "appearance",
+        "label": "Appearance",
+        "file": "data/appearance.json",
+        "fields": [
+          {
+            "name": "theme",
+            "label": "Site theme",
+            "widget": "select",
+            "options": [
+              "freehold",
+              "editorial",
+              "magazine",
+              "landing",
+              "classic"
+            ],
+            "default": "freehold",
+            "hint": "The public site's look. Per-entry Layout can still override the width."
+          },
+          {
+            "name": "logo",
+            "label": "Logo",
+            "widget": "image",
+            "required": false,
+            "hint": "Shown in the site header in place of the text wordmark. Leave empty to use the site name."
+          }
+        ]
+      },
+      {
+        "name": "seo_defaults",
+        "label": "SEO defaults",
+        "file": "data/seo.json",
+        "localized": true,
+        "fields": [
+          {
+            "name": "siteName",
+            "label": "Site name",
+            "widget": "string"
+          },
+          {
+            "name": "titleTemplate",
+            "label": "Title template",
+            "widget": "string",
+            "hint": "Use %s where the page title goes, e.g. '%s · My Site'"
+          },
+          {
+            "name": "defaultTitle",
+            "label": "Default title",
+            "widget": "string"
+          },
+          {
+            "name": "defaultDescription",
+            "label": "Default description",
+            "widget": "text"
+          },
+          {
+            "name": "defaultOgImage",
+            "label": "Default OG image",
+            "widget": "image",
+            "required": false
+          },
+          {
+            "name": "locale",
+            "label": "Locale",
+            "widget": "string",
+            "default": "en_US",
+            "hint": "og:locale, e.g. en_US"
+          },
+          {
+            "name": "twitter",
+            "label": "Twitter @site handle",
+            "widget": "string",
+            "required": false
+          },
+          {
+            "name": "twitterCreator",
+            "label": "Twitter @creator handle",
+            "widget": "string",
+            "required": false
+          },
+          {
+            "name": "organization",
+            "label": "Organization (JSON-LD)",
+            "widget": "object",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "widget": "string"
+              },
+              {
+                "name": "logo",
+                "label": "Logo",
+                "widget": "image",
+                "required": false
+              },
+              {
+                "name": "sameAs",
+                "label": "Social profile URLs",
+                "widget": "list",
+                "required": false,
+                "hint": "One URL per item (sameAs)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "menu",
+        "label": "Menu",
+        "file": "data/menu.json",
+        "localized": true,
+        "view": "menu",
+        "fields": []
+      },
+      {
+        "name": "redirects",
+        "label": "Redirects",
+        "file": "data/redirects.json",
+        "view": "redirects",
+        "fields": []
+      }
+    ]
+  }
+]
