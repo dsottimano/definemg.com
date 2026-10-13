@@ -1,15 +1,15 @@
 {
-  "siteName": "My Site",
-  "titleTemplate": "%s \u00b7 My Site",
-  "defaultTitle": "My Site",
-  "defaultDescription": "A personal site.",
-  "defaultOgImage": "",
+  "siteName": "Define Media Group",
+  "titleTemplate": "%s \u00b7 Define Media Group",
+  "defaultTitle": "Enterprise SEO & Audience Development",
+  "defaultDescription": "Define Media Group is a boutique consulting firm specializing in enterprise audience development, SEO, acquisition diligence, agentic AI, core update remediation, and market gap analysis.",
+  "defaultOgImage": "/media/legacy/DMG-Logox188.png",
   "locale": "en_US",
   "twitter": "",
   "twitterCreator": "",
   "organization": {
-    "name": "My Site",
-    "logo": "",
+    "name": "Define Media Group Inc.",
+    "logo": "/media/legacy/DMG-Logox188.png",
     "sameAs": []
   }
 }

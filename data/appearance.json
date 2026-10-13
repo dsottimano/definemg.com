@@ -1,1 +1,21 @@
-{ "theme": "freehold", "logo": "" }
+{
+  "theme": "freehold",
+  "logo": "/media/legacy/DMG-Logox188.png",
+  "brand": {
+    "colors": {
+      "bg": "#f7f8f2",
+      "surface": "#ffffff",
+      "ink": "#142b32",
+      "muted": "#54666b",
+      "accent": "#2161dd",
+      "border": "#d9dfd8"
+    },
+    "radius": "8px",
+    "motion": "on",
+    "fonts": {
+      "heading": "space-grotesk",
+      "body": "inter"
+    },
+    "scheme": "light"
+  }
+}

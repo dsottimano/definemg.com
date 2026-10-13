@@ -1,6 +1,56 @@
 {
   "locations": {
-    "header": { "desktop": [{ "label": "Blog", "url": "/posts" }], "tablet": null, "mobile": null },
-    "footer": { "desktop": [], "tablet": null, "mobile": null }
+    "header": {
+      "desktop": [
+        {
+          "label": "Services",
+          "url": "/services/"
+        },
+        {
+          "label": "Our team",
+          "url": "/team/"
+        },
+        {
+          "label": "Our work",
+          "url": "/our-work/"
+        },
+        {
+          "label": "Insights",
+          "url": "/blog/"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact/"
+        }
+      ],
+      "tablet": null,
+      "mobile": null
+    },
+    "footer": {
+      "desktop": [
+        {
+          "label": "Audience development",
+          "url": "/services/audience-development/"
+        },
+        {
+          "label": "Enterprise SEO",
+          "url": "/services/search-engine-optimization/"
+        },
+        {
+          "label": "Investment advisory",
+          "url": "/services/investment-advisory-services/"
+        },
+        {
+          "label": "Testimonials",
+          "url": "/our-work/testimonials/"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact/"
+        }
+      ],
+      "tablet": null,
+      "mobile": null
+    }
   }
 }

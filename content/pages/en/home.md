@@ -1,45 +1,271 @@
 ---
-title: "Home"
+title: Enterprise SEO & Audience Development
 draft: false
-template: "landing"
+template: full-width
+preset: define-home
+seo:
+  metaTitle: Enterprise SEO Consulting and Audience Development
+  metaDescription: Define Media Group is a boutique consulting firm specializing in enterprise audience development,
+    SEO, acquisition diligence, agentic AI, core update remediation, and market gap analysis.
+slots:
+  eyebrow: Independent expertise. Enterprise impact.
+  title: Develop your
+  titleAccent: audience.
+  intro: Significantly increase traffic and user engagement for your site
+  primaryLabel: Get in touch
+  primaryUrl: /contact/
+  secondaryLabel: Explore our work
+  secondaryUrl: /our-work/
+  clientsLabel: Past and present work
+  servicesEyebrow: What we do
+  servicesTitle: 'Search is changing.
+
+    Opportunity is everywhere.'
+  servicesIntro: Audience development, enterprise SEO and investment advisory for ambitious organizations.
+  services:
+  - title: Audience development
+    description: Connect with the right audience. Build the strategy, workflows and in-house capabilities that turn
+      attention into sustainable growth.
+    url: /services/audience-development/
+  - title: Enterprise SEO
+    description: Bring technical, editorial, product and marketing teams together around a search strategy built
+      for your business.
+    url: /services/search-engine-optimization/
+  - title: Investment advisory
+    description: Understand search risk and opportunity before you invest, with acquisition diligence and market
+      gap analysis.
+    url: /services/investment-advisory-services/
+  approachEyebrow: Built around your business
+  approachTitle: 'More than a recommendation.
+
+    A working partnership.'
+  approachIntro: We work alongside your teams to turn search expertise into everyday practice.
+  steps:
+  - title: Understand the opportunity
+    description: Start with your business objectives, your audience and the search landscape.
+  - title: Build the right strategy
+    description: Connect technical, editorial and commercial priorities in a practical plan.
+  - title: Make it part of your team
+    description: Embed audience development and SEO best practices into the day-to-day workflow.
+  aboutEyebrow: The people behind the work
+  aboutTitle: 'Boutique by design.
+
+    Enterprise by experience.'
+  aboutIntro: A specialist consulting team with deep publishing and extensive e-commerce experience. Meet Marshall
+    Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano.
+  aboutLabel: Meet our executive team
+  aboutUrl: /team/
+  ctaEyebrow: Your next chapter
+  ctaTitle: Let’s define what’s next.
+  ctaIntro: Explore how Define can help your business develop its audience.
+  ctaLabel: Get in touch
+  ctaUrl: /contact/
+  testimonialsTitle: 'The work speaks.
+
+    So do our clients.'
+  testimonials:
+  - quote: Define are truly experts on how to drive online traffic across consumer, retail and B2B sites. For any
+      diligence or portfolio efforts where online traffic is a critical issue, we’d recommend giving Marshall and
+      Define a call.
+    name: Scott Wagner
+    role: Interim CEO GoodRx
+  - quote: Define understands big media and particularly how large networks operate. They’re able to assess, train
+      and execute on complex strategies.
+    name: Jim Lanzone
+    role: Chief Executive Officer at Yahoo
+  - quote: We saw an immediate, significant improvement based on the work we did with Define Media. We didn't expect
+      that big or quick an impact, but the results were impressive.
+    name: Julie Hansen
+    role: CRO & US CEO, Babbel
+  - quote: Define Media Group has been a key adviser in helping us evaluate risks and opportunities within the search
+      and marketing channels for many of the Companies in which we invest.
+    name: Michael Kumin
+    role: Managing Director, Great Hill Partners
+  clients:
+  - name: AARP
+    image: /media/legacy/aarp.png
+  - name: J.Crew
+    image: /media/legacy/JCrew-1.png
+  - name: NBA
+    image: /media/legacy/nba-logo-transparent-1.png
+  - name: Carter’s
+    image: /media/legacy/carters-1-1.png
+  - name: Bloomberg
+    image: /media/legacy/Bloomberg.png
+  - name: Consumer Reports
+    image: /media/legacy/2019-06-27_14-46-14.png
+  - name: PwC
+    image: /media/legacy/images.png
+  - name: Condé Nast
+    image: /media/legacy/Conde-Nast.png
+  - name: CNN
+    image: /media/legacy/C1200px.png
+  - name: The Boston Globe
+    image: /media/legacy/Boston-Globe-Logo-1.png
+  - name: The Economist
+    image: /media/legacy/TheEconomist.png
+  - name: E! News
+    image: /media/legacy/e_news_online_logo.png
+  - name: Gannett
+    image: /media/legacy/Gannett-.png
+  - name: Hearst
+    image: /media/legacy/Hearst.png
+  - name: Human Rights Watch
+    image: /media/legacy/HRW-logo.png
+  - name: IAC
+    image: /media/legacy/interactivecorp.png
+  - name: iHeartRadio
+    image: /media/legacy/IH2018-11-06_8-55-17.jpg
+  - name: KKR
+    image: /media/legacy/kkr.png
+  - name: Los Angeles Times
+    image: /media/legacy/images-1-1.png
+  - name: Netflix
+    image: /media/legacy/N2018-11-07_9-13-59.png
+  - name: Nexstar Media Group
+    image: /media/legacy/Nexstar_Media_Group_logo_color.svg-1.png
+  - name: Tribune Media
+    image: /media/legacy/Tribune-media-1.jpg
+  - name: NBCUniversal
+    image: /media/legacy/NBC_Universal-1.webp
+  - name: NPR
+    image: /media/legacy/NP2018-11-06_8-51-23.jpg
+  - name: The New York Times
+    image: /media/legacy/NY-.png
+  - name: TPG Capital
+    image: /media/legacy/download-1-1.png
+  - name: Quora
+    image: /media/legacy/quora.png
+  - name: Refinery29
+    image: /media/legacy/refinery29.png
+  - name: Robert Wood Johnson Foundation
+    image: /media/legacy/rwjf-logo.png
+  - name: Salesforce
+    image: /media/legacy/Salesforce.png
+  - name: SeatGeek
+    image: /media/legacy/seat_geek.png
+  - name: Spark Capital
+    image: /media/legacy/sparklogo.jpg
+  - name: USA Today
+    image: /media/legacy/USAToday.png
+  - name: Vimeo
+    image: /media/legacy/Vimeo.png
+  - name: The Weather Channel
+    image: /media/legacy/The_Weather_Channel_logo_.png
+lanzaProvenance:
+  version: 1
+  fields:
+    slots.eyebrow:
+      origin: agent
+      text: Independent expertise. Enterprise impact.
+    slots.title:
+      origin: agent
+      text: Develop your
+    slots.titleAccent:
+      origin: agent
+      text: audience.
+    slots.primaryLabel:
+      origin: agent
+      text: Get in touch
+    slots.secondaryLabel:
+      origin: agent
+      text: Explore our work
+    slots.servicesEyebrow:
+      origin: agent
+      text: What we do
+    slots.servicesTitle:
+      origin: agent
+      text: 'Search is changing.
+
+        Opportunity is everywhere.'
+    slots.servicesIntro:
+      origin: agent
+      text: Audience development, enterprise SEO and investment advisory for ambitious organizations.
+    slots.services.0.title:
+      origin: agent
+      text: Audience development
+    slots.services.0.description:
+      origin: agent
+      text: Connect with the right audience. Build the strategy, workflows and in-house capabilities that turn attention
+        into sustainable growth.
+    slots.services.1.title:
+      origin: agent
+      text: Enterprise SEO
+    slots.services.1.description:
+      origin: agent
+      text: Bring technical, editorial, product and marketing teams together around a search strategy built for
+        your business.
+    slots.services.2.title:
+      origin: agent
+      text: Investment advisory
+    slots.services.2.description:
+      origin: agent
+      text: Understand search risk and opportunity before you invest, with acquisition diligence and market gap
+        analysis.
+    slots.approachEyebrow:
+      origin: agent
+      text: Built around your business
+    slots.approachTitle:
+      origin: agent
+      text: 'More than a recommendation.
+
+        A working partnership.'
+    slots.approachIntro:
+      origin: agent
+      text: We work alongside your teams to turn search expertise into everyday practice.
+    slots.steps.0.title:
+      origin: agent
+      text: Understand the opportunity
+    slots.steps.0.description:
+      origin: agent
+      text: Start with your business objectives, your audience and the search landscape.
+    slots.steps.1.title:
+      origin: agent
+      text: Build the right strategy
+    slots.steps.1.description:
+      origin: agent
+      text: Connect technical, editorial and commercial priorities in a practical plan.
+    slots.steps.2.title:
+      origin: agent
+      text: Make it part of your team
+    slots.steps.2.description:
+      origin: agent
+      text: Embed audience development and SEO best practices into the day-to-day workflow.
+    slots.aboutEyebrow:
+      origin: agent
+      text: The people behind the work
+    slots.aboutTitle:
+      origin: agent
+      text: 'Boutique by design.
+
+        Enterprise by experience.'
+    slots.aboutIntro:
+      origin: agent
+      text: A specialist consulting team with deep publishing and extensive e-commerce experience. Meet Marshall
+        Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano.
+    slots.aboutLabel:
+      origin: agent
+      text: Meet our executive team
+    slots.ctaEyebrow:
+      origin: agent
+      text: Your next chapter
+    slots.ctaTitle:
+      origin: agent
+      text: Let’s define what’s next.
+    slots.ctaIntro:
+      origin: agent
+      text: Explore how Define can help your business develop its audience.
+    slots.ctaLabel:
+      origin: agent
+      text: Get in touch
+    slots.testimonialsTitle:
+      origin: agent
+      text: 'The work speaks.
+
+        So do our clients.'
 ---
 
-<h1>Your site is live</h1>
-<p>This page is a plain file in your own GitHub repository. You can edit it by hand at
-<code>/admin</code>, or you can connect an AI assistant and simply tell it what you
-want the site to be.</p>
-
-<h2>Connect an assistant</h2>
-<p>This site speaks <strong>MCP</strong>, so any assistant that supports it can read and
-write your content directly. The address is this site's own, with <code>/api/mcp</code>
-on the end:</p>
-<p><code>https://your-site-address/api/mcp</code></p>
-<p>The first time you connect, you will be asked to sign in with GitHub. Approve as the
-account that owns this site. That is how the site knows it is you, and it is the only
-password involved.</p>
-
-<h3>Claude</h3>
-<ol>
-  <li>Settings → Connectors → add a custom connector</li>
-  <li>Paste the address above</li>
-  <li>Approve the GitHub sign-in</li>
-</ol>
-
-<h3>ChatGPT</h3>
-<ol>
-  <li>Settings → Connectors → create a custom connector</li>
-  <li>Paste the address above</li>
-  <li>Approve the GitHub sign-in</li>
-</ol>
-
-<h3>Claude Code</h3>
-<p><code>claude mcp add --transport http lanza https://your-site-address/api/mcp</code></p>
-
-<h2>Then ask for the site you want</h2>
-<p>Describe the business, not the software. <em>"I run a violin repair shop in Toronto. I
-want a page for each service I offer, with the price and how long it takes, and a page
-listing them all."</em> The assistant works out what content types the site needs, writes
-the page templates, creates the URLs and fills them in.</p>
-<p>Everything it does lands on a <strong>draft</strong> copy of your site, so you can look
-at the whole change before anyone else can. Nothing is public until you press Publish, and
-one button in <code>/admin</code> throws the whole draft away if you don't like it.</p>
+<p><strong>Define Media Group</strong> is a boutique consulting firm specializing in enterprise audience development, SEO, acquisition diligence, agentic AI, core update remediation, and market gap analysis. Serving clients like the NBA, Hearst, Nexstar Media, and Carter’s, we leverage our <a href="/our-work/">deep publishing and extensive e-commerce experience</a> to design scalable, bespoke audience development campaigns that drive traffic, increase revenue, and enhance brand visibility.</p>
+<p>Our <a href="/services/search-engine-optimization/">comprehensive SEO strategy</a> includes empowering clients to integrate SEO best practices throughout organization and into the day-to-day workflow. By collaborating closely with product, technical, editorial, and marketing teams, we boost qualified traffic and revenue while building<a href="/services/audience-development/"> in-house audience development</a> and SEO capabilities while preparing for the changing agentic AI landscape.</p>
+<p>With a proven track record across leading content networks, publishers, and e-commerce sites, <a href="/team/">Define’s team</a> excels in <a href="/services/investment-advisory-services/">acquisition diligence</a> and identifying market gaps. We tailor search strategies to specific, unique business objectives, ensuring sustainable growth and a strong online presence. <a href="/contact/">Get in touch today!</a>
+</p>

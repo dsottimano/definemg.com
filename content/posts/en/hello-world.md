@@ -1,7 +1,7 @@
 ---
 title: "Hello world"
 pubDate: 2026-01-01
-draft: false
+draft: true
 description: "The first post on your new site."
 ---
 

@@ -1,0 +1,255 @@
+{
+  "name": "define-home",
+  "label": "Define \u2014 Homepage",
+  "body": true,
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "titleAccent",
+      "label": "Title accent",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "intro",
+      "label": "Intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "primaryLabel",
+      "label": "Primary label",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "primaryUrl",
+      "label": "Primary url",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "secondaryLabel",
+      "label": "Secondary label",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "secondaryUrl",
+      "label": "Secondary url",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "clientsLabel",
+      "label": "Clients label",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "servicesEyebrow",
+      "label": "Services eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "servicesTitle",
+      "label": "Services title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "servicesIntro",
+      "label": "Services intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "approachEyebrow",
+      "label": "Approach eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "approachTitle",
+      "label": "Approach title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "approachIntro",
+      "label": "Approach intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "aboutEyebrow",
+      "label": "About eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "aboutTitle",
+      "label": "About title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "aboutIntro",
+      "label": "About intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "aboutLabel",
+      "label": "About label",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "aboutUrl",
+      "label": "About url",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "ctaEyebrow",
+      "label": "Cta eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "ctaTitle",
+      "label": "Cta title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "ctaIntro",
+      "label": "Cta intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Cta label",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "ctaUrl",
+      "label": "Cta url",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "clients",
+      "label": "Clients",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "label": "Services",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "url",
+          "label": "Url",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "steps",
+      "label": "Steps",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "testimonialsTitle",
+      "label": "Testimonials heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "testimonials",
+      "label": "Testimonials",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "quote",
+          "label": "Quote",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "name",
+          "label": "Name",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "role",
+          "label": "Role",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

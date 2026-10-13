@@ -1,0 +1,57 @@
+javascript:(
+	    function(e,a,g,h,f,c,b,d){
+		    if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){
+			    c=a.createElement("script");
+			    c.type="text/javascript";
+			    c.src="https://ajax.googleapis.com/ajax/libs/jquery/"+g+"/jquery.min.js";
+			    c.onload=c.onreadystatechange=function(){
+				    if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){
+					    h((f=e.jQuery).noConflict(1),b=1);
+					    f(c).remove()
+				    }
+			    };
+			    a.documentElement.childNodes[0].appendChild(c)
+		    }
+	    }
+	    ) (window,document,"1.11.3",function($,L){
+		(function() {
+		var oC = "sC-bookmarklet-out";
+		$("."+oC).remove();
+		var floating = $("<div/>", {
+			css : { "position"  :   "absolute",
+				"top": 0,
+				"left": 0,
+				"border"    :   "1px solid #000",
+				"padding"   :   "5px",
+				"z-index"   :   "10000",
+				"background-color"  :   "#FFF"
+			}
+		    });
+		var dataTable = $("<table/>").appendTo(floating);
+		dataTable.append($("<tr><th>param</th><th>sample url</th></tr>"));
+		var siteUrl;
+		var url = window.location.href;
+		url = url.replace(/siteUrl=(.*)/, function(match,site) {siteUrl=site;return "siteUrl="+encodeURIComponent(site)})+"&paramname=";
+		url = url.replace(/parameters\?/, function(match) {return "parameters-details?"});
+
+		floating.addClass(oC);
+		var firstLink = false;
+		$(".cup-edit-links").find('a:contains("Edit")').get(0).click();
+		$("#cup-urls-link").get(0).click();
+		$(".cup-edit-links").each(function(idx) {
+			var link = $(this).find('a:contains("Edit")');
+			var parameter = $(this).parent().parent().find(".cup-column-param-name").text();
+			var paramRow = $("<tr><td>"+parameter+"</td></tr>").appendTo(dataTable);
+			(function(a) {
+			setTimeout(function() {
+				a.click();
+				setTimeout(function(){
+				var url = $('#cup-urls .cup-url').get(0).innerText;
+				paramRow.append($("<td/>").text(siteUrl+url));
+				$('.modal-dialog-title-close').click();
+				},200);
+			},idx*300)})(link);
+		});
+		floating.appendTo(document.body);
+		})();
+	    });
