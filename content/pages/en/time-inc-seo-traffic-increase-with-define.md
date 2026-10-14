@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2012-02-07",
+    "eyebrow": "Research & perspectives / February 7, 2012",
     "title": "Case Study: Utilizing Define as Embedded Strategists, Time Inc. Experiences Long-Term Traffic Gains",
     "intro": "An embedded approach to enterprise SEO, built around the teams and publications at Time Inc.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -30,7 +34,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2012-02-07"
+        "text": "Research & perspectives / February 7, 2012"
       },
       "slots.intro": {
         "origin": "agent",
@@ -51,6 +55,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

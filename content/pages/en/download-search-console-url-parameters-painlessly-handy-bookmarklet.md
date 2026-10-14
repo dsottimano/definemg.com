@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2016-01-05",
+    "eyebrow": "Research & perspectives / January 5, 2016",
     "title": "Download Search Console URL Parameters Painlessly with This Handy Bookmarklet",
     "intro": "An archived workflow for extracting URL parameter settings from Google Search Console.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -30,7 +34,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2016-01-05"
+        "text": "Research & perspectives / January 5, 2016"
       },
       "slots.intro": {
         "origin": "agent",
@@ -51,6 +55,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

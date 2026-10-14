@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2013-08-01",
+    "eyebrow": "Research & perspectives / August 1, 2013",
     "title": "Google Coming Out of the Dark? Android 4 and iOS 6 Passing Search Referral Data",
     "intro": "Following the changing trail of search referral data on mobile devices.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -30,7 +34,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2013-08-01"
+        "text": "Research & perspectives / August 1, 2013"
       },
       "slots.intro": {
         "origin": "agent",
@@ -51,6 +55,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

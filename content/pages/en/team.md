@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "The people behind Define",
     "title": "Our Executive Team",
-    "intro": "Senior practitioners. Shared experience. A direct line to the people doing the work.",
+    "intro": "Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano bring publishing experience, AI search strategy and hands-on research to your team.",
     "kind": "team",
     "railLabel": "People & experience",
     "relatedTitle": "Explore Define",
@@ -17,12 +17,12 @@
         "url": "/services/"
       },
       {
-        "label": "Our executive team",
-        "url": "/team/"
-      },
-      {
         "label": "Client testimonials",
         "url": "/our-work/testimonials/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -35,7 +35,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "Senior practitioners. Shared experience. A direct line to the people doing the work."
+        "text": "Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano bring publishing experience, AI search strategy and hands-on research to your team."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -45,26 +45,31 @@
         "origin": "agent",
         "text": "Explore Define"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Meet Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano: Define’s team across publishing, enterprise SEO, AI search and research."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "Our services"
       },
       "slots.relatedLinks.1.label": {
         "origin": "agent",
-        "text": "Our executive team"
+        "text": "Client testimonials"
       },
       "slots.relatedLinks.2.label": {
         "origin": "agent",
-        "text": "Client testimonials"
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Meet Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano: Define’s team across publishing, enterprise SEO, AI search and research."
   }
 }
 ---
 
-<p>
-		The Define Executive Team has unmatched experience working with both Fortune 500 clients as well as new online ventures. Define Media Group Inc. was launched in April 2005 by <a href="/team/marshall-simmonds/">Marshall Simmonds</a>. <a href="/team/adam-sherk/">Adam Sherk</a> joined the team in January 2007, and <a href="/team/shahzad-abbas/">Shahzad Abbas</a> in 2011. Together Define Media Group Inc. has a resume that covers SEO, eCommerce, content creation and design, social media, and all facets of online marketing and audience development.
-	</p>
+<p><span data-lanza-origin="agent">Founded by Marshall Simmonds in 2005, Define brings together Adam Sherk, Shahzad Abbas and Dave Sottimano to help publishers and brands grow. Our experience spans enterprise SEO, audience development, AI search and technical research. We work directly with editorial, product and leadership teams on challenges including AI Overviews, agentic AI and content licensing.</span></p>
 <div class="define-team-grid"><div class="define-person" id="person_141468112"><a href="/team/marshall-simmonds/"><img alt="Marshall D. Simmonds" decoding="async" loading="lazy" src="/media/legacy/marshall-simmons.jpg"/></a>
 <h4><a href="/team/marshall-simmonds/">Marshall D. Simmonds</a></h4>
 <p><a href="/team/marshall-simmonds/">Founder</a></p>
@@ -74,4 +79,4 @@
 </div><div class="define-person" id="person_1873315020"><a href="/team/shahzad-abbas/"><img alt="Shahzad Abbas" decoding="async" loading="lazy" src="/media/legacy/shahzad-abbas-headshot-2025-e1760037096944.jpg"/></a>
 <h4><a href="/team/shahzad-abbas/">Shahzad Abbas</a></h4>
 <p><a href="/team/shahzad-abbas/">VP Digital Media</a></p>
-</div><div class="define-person"><a href="/dave-sottimano/"><img alt="Dave Sottimano" decoding="async" loading="lazy" src="/media/legacy/Dave-Sottimano-e1438975608621.jpg"/></a><h4><a href="/dave-sottimano/">Dave Sottimano</a></h4><p>Head of Research and Lead Programmer</p></div></div>
+</div><div class="define-person"><a href="/team/dave-sottimano/"><img alt="Dave Sottimano" decoding="async" loading="lazy" src="/media/legacy/Dave-Sottimano-original.jpg"/></a><h4><a href="/team/dave-sottimano/">Dave Sottimano</a></h4><p>Head of Research and Lead Programmer</p></div></div>

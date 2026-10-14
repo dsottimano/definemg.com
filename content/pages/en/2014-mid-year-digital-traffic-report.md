@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2014-07-15",
+    "eyebrow": "Research & perspectives / July 15, 2014",
     "title": "The 2014 Mid-Year Digital Traffic Report",
     "intro": "A historical snapshot of search, social and direct traffic across Define’s publisher network.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -30,7 +34,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2014-07-15"
+        "text": "Research & perspectives / July 15, 2014"
       },
       "slots.intro": {
         "origin": "agent",
@@ -51,6 +55,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

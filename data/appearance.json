@@ -3,12 +3,12 @@
   "logo": "/media/legacy/DMG-Logox188.png",
   "brand": {
     "colors": {
-      "bg": "#f7f8f2",
+      "bg": "#f5f8fc",
       "surface": "#ffffff",
-      "ink": "#142b32",
-      "muted": "#54666b",
+      "ink": "#142b46",
+      "muted": "#52657b",
       "accent": "#2161dd",
-      "border": "#d9dfd8"
+      "border": "#d8e2ef"
     },
     "radius": "8px",
     "motion": "on",

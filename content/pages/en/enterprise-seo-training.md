@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "Enterprise SEO training",
     "title": "Enterprise SEO Training",
-    "intro": "Make search part of the everyday workflow, with training built around the people who shape your website.",
+    "intro": "Make search and AI discovery part of the everyday workflow, with practical training for the people who shape your website.",
     "kind": "service",
     "railLabel": "Explore the service",
     "relatedTitle": "Related expertise",
@@ -27,6 +27,10 @@
       {
         "label": "Our executive team",
         "url": "/team/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -39,7 +43,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "Make search part of the everyday workflow, with training built around the people who shape your website."
+        "text": "Make search and AI discovery part of the everyday workflow, with practical training for the people who shape your website."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -48,6 +52,10 @@
       "slots.relatedTitle": {
         "origin": "agent",
         "text": "Related expertise"
+      },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Equip editorial, technical and leadership teams with practical enterprise SEO training for search engines, AI Overviews and emerging discovery."
       },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
@@ -64,8 +72,15 @@
       "slots.relatedLinks.3.label": {
         "origin": "agent",
         "text": "Our executive team"
+      },
+      "slots.relatedLinks.4.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Equip editorial, technical and leadership teams with practical enterprise SEO training for search engines, AI Overviews and emerging discovery."
   }
 }
 ---

@@ -1,0 +1,33 @@
+{
+  "projectId": "a96ee10e-5c48-4527-a233-5eaf04037d82",
+  "targets": {
+    "services": {
+      "baselineDraftId": "0b8645ef-9548-44b9-8830-fcf79f0e0886",
+      "activeDraftId": "0b8645ef-9548-44b9-8830-fcf79f0e0886",
+      "currentVersion": 2,
+      "approved": true,
+      "previewUrl": "https://p.superdesign.dev/draft/0b8645ef-9548-44b9-8830-fcf79f0e0886",
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "templates/define-services/template.html",
+        "content/pages/en/services.md",
+        "templates/parts/header.html",
+        "templates/parts/footer.html"
+      ],
+      "note": "User approved blue design implementation on 2026-10-14.",
+      "fingerprints": {
+        ".superdesign/design-system.md": "6ff1ccb09997e5e0b8c9ca1f94881ce20b38f53f0e43f9bf2977327962decc6d",
+        "templates/define-services/template.html": "7e4cd615909dfeec222042f60f12c6aee4cb977ec2bcef038c6f31ae6b62b4ef",
+        "content/pages/en/services.md": "d7a892e00df2c1123b5fdd5cb2afde2019d0e6f16b4b749353f5857da3df27e8",
+        "templates/parts/header.html": "98e8b7d6e477c9bd44d6f6fb20389e8380723eece6cc50ed634427a63e8f9699",
+        "templates/parts/footer.html": "19c888a6877dec7f049121218cdc37d4e09e7d4bcf52b91bdf0b9a5ae1f30a15"
+      },
+      "brandAssets": [
+        {
+          "assetKey": "media-legacy-DMG-Logox188.png",
+          "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/a96ee10e-5c48-4527-a233-5eaf04037d82/brand-assets/media-legacy-DMG-Logox188.png/DMG-Logox188.png"
+        }
+      ]
+    }
+  }
+}

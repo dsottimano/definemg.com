@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "Selected case studies",
     "title": "Case Studies",
-    "intro": "Inside two enterprise SEO engagements: the teams, the work and the results.",
+    "intro": "Two enterprise SEO engagements that show the foundations of our work today: team education and embedded strategy, now applied to AI search and audience growth.",
     "kind": "journal",
     "railLabel": "From the archive",
     "relatedTitle": "Explore Define",
@@ -23,6 +23,10 @@
       {
         "label": "Client testimonials",
         "url": "/our-work/testimonials/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -43,7 +47,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "Inside two enterprise SEO engagements: the teams, the work and the results."
+        "text": "Two enterprise SEO engagements that show the foundations of our work today: team education and embedded strategy, now applied to AI search and audience growth."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -52,6 +56,10 @@
       "slots.relatedTitle": {
         "origin": "agent",
         "text": "Explore Define"
+      },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Read Define’s Hearst and Time Inc. case studies, covering SEO training, embedded strategy and long-term publisher audience growth."
       },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
@@ -64,8 +72,15 @@
       "slots.relatedLinks.2.label": {
         "origin": "agent",
         "text": "Client testimonials"
+      },
+      "slots.relatedLinks.3.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Read Define’s Hearst and Time Inc. case studies, covering SEO training, embedded strategy and long-term publisher audience growth."
   }
 }
 ---

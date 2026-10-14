@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "Investment advisory",
     "title": "Investment Advisory Services",
-    "intro": "Understand the audience behind the asset. Search expertise for diligence, acquisition strategy and portfolio growth.",
+    "intro": "Understand the audience behind the asset. Search and AI expertise for acquisition diligence, content licensing and portfolio growth.",
     "kind": "service",
     "railLabel": "Explore the service",
     "relatedTitle": "Related expertise",
@@ -23,6 +23,10 @@
       {
         "label": "Our executive team",
         "url": "/team/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -35,7 +39,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "Understand the audience behind the asset. Search expertise for diligence, acquisition strategy and portfolio growth."
+        "text": "Understand the audience behind the asset. Search and AI expertise for acquisition diligence, content licensing and portfolio growth."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -44,6 +48,10 @@
       "slots.relatedTitle": {
         "origin": "agent",
         "text": "Related expertise"
+      },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Search and audience due diligence for media investors, including AI disruption, content licensing and opportunities for portfolio growth."
       },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
@@ -56,8 +64,15 @@
       "slots.relatedLinks.2.label": {
         "origin": "agent",
         "text": "Our executive team"
+      },
+      "slots.relatedLinks.3.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Search and audience due diligence for media investors, including AI disruption, content licensing and opportunities for portfolio growth."
   }
 }
 ---

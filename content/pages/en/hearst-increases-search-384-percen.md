@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2012-01-24",
+    "eyebrow": "Research & perspectives / January 24, 2012",
     "title": "Case Study: How SEO Training Builds a Foundation for Success",
     "intro": "How SEO education helped Hearst build a foundation for sustainable search growth.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -30,7 +34,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2012-01-24"
+        "text": "Research & perspectives / January 24, 2012"
       },
       "slots.intro": {
         "origin": "agent",
@@ -51,6 +55,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

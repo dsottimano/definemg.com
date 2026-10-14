@@ -4,5 +4,11 @@ dist/
 
 # Generated at build time by `lanza build`.
 public/_redirects
-functions/
+functions/*
+!functions/api/
+functions/api/*
+!functions/api/contact.js
 frontend/
+
+.dev.vars
+.env

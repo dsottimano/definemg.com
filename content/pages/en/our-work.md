@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "Our work",
     "title": "Our Work",
-    "intro": "A history of working alongside publishers, consumer brands and investors on the challenges that shape their audiences.",
+    "intro": "A history of working alongside publishers, consumer brands and investors—and experience that informs our work on AI search, agentic AI and content licensing.",
     "kind": "work",
     "railLabel": "Experience in practice",
     "relatedTitle": "Explore Define",
@@ -23,11 +23,15 @@
       {
         "label": "Client testimonials",
         "url": "/our-work/testimonials/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
   "seo": {
-    "metaDescription": "Define has helped the biggest brands on the web dramatically increase traffic and conversions since the late 1990s. Learn how we can help your brand grow."
+    "metaDescription": "Explore the publishers, brands and investors Define has worked with on audience development, enterprise SEO and digital growth."
   },
   "lanzaProvenance": {
     "version": 1,
@@ -38,7 +42,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "A history of working alongside publishers, consumer brands and investors on the challenges that shape their audiences."
+        "text": "A history of working alongside publishers, consumer brands and investors—and experience that informs our work on AI search, agentic AI and content licensing."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -47,6 +51,10 @@
       "slots.relatedTitle": {
         "origin": "agent",
         "text": "Explore Define"
+      },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Explore the publishers, brands and investors Define has worked with on audience development, enterprise SEO and digital growth."
       },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
@@ -59,6 +67,10 @@
       "slots.relatedLinks.2.label": {
         "origin": "agent",
         "text": "Client testimonials"
+      },
+      "slots.relatedLinks.3.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }
@@ -69,108 +81,116 @@
 <h3>Past and Present Work</h3>
 <div class="define-logo-grid" id="gallery-1">
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/aarp.png"/>
+<img alt="AARP" decoding="async" loading="lazy" src="/media/legacy/aarp.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/JCrew-1.png"/>
+<img alt="J.Crew" decoding="async" loading="lazy" src="/media/legacy/JCrew-1.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/nba-logo-transparent-1.png"/>
+<img alt="NBA" decoding="async" loading="lazy" src="/media/legacy/nba-logo-transparent-1.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/carters-1-1.png"/>
+<img alt="Carter’s" decoding="async" loading="lazy" src="/media/legacy/carters-1-1.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Bloomberg.png"/>
+<img alt="Bloomberg" decoding="async" loading="lazy" src="/media/legacy/Bloomberg.png"/>
 
 
 <img alt="" decoding="async" loading="lazy" src="/media/legacy/Business-Insider-Logo-1.jpg"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/2019-06-27_14-46-14.png"/>
+<img alt="Consumer Reports" decoding="async" loading="lazy" src="/media/legacy/2019-06-27_14-46-14.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/images.png"/>
+<img alt="PwC" decoding="async" loading="lazy" src="/media/legacy/images.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Conde-Nast.png"/>
+<img alt="Condé Nast" decoding="async" loading="lazy" src="/media/legacy/Conde-Nast.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/C1200px.png"/>
+<img alt="CNN" decoding="async" loading="lazy" src="/media/legacy/C1200px.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Boston-Globe-Logo-1.png"/>
+<img alt="The Boston Globe" decoding="async" loading="lazy" src="/media/legacy/Boston-Globe-Logo-1.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/TheEconomist.png"/>
+<img alt="The Economist" decoding="async" loading="lazy" src="/media/legacy/TheEconomist.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/e_news_online_logo.png"/>
+<img alt="E! News" decoding="async" loading="lazy" src="/media/legacy/e_news_online_logo.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Gannett-.png"/>
+<img alt="Gannett" decoding="async" loading="lazy" src="/media/legacy/Gannett-.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Hearst.png"/>
+<img alt="Hearst" decoding="async" loading="lazy" src="/media/legacy/Hearst.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/HRW-logo.png"/>
+<img alt="Human Rights Watch" decoding="async" loading="lazy" src="/media/legacy/HRW-logo.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/interactivecorp.png"/>
+<img alt="IAC" decoding="async" loading="lazy" src="/media/legacy/interactivecorp.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/IH2018-11-06_8-55-17.jpg"/>
+<img alt="iHeartRadio" decoding="async" loading="lazy" src="/media/legacy/IH2018-11-06_8-55-17.jpg"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/kkr.png"/>
+<img alt="KKR" decoding="async" loading="lazy" src="/media/legacy/kkr.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/images-1-1.png"/>
+<img alt="Los Angeles Times" decoding="async" loading="lazy" src="/media/legacy/images-1-1.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/N2018-11-07_9-13-59.png"/>
+<img alt="Netflix" decoding="async" loading="lazy" src="/media/legacy/N2018-11-07_9-13-59.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Nexstar_Media_Group_logo_color.svg-1.png"/>
+<img alt="Nexstar Media Group" decoding="async" loading="lazy" src="/media/legacy/Nexstar_Media_Group_logo_color.svg-1.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/NBC_Universal-1.webp"/>
+<img alt="NBCUniversal" decoding="async" loading="lazy" src="/media/legacy/NBC_Universal-1.webp"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/NP2018-11-06_8-51-23.jpg"/>
+<img alt="NPR" decoding="async" loading="lazy" src="/media/legacy/NP2018-11-06_8-51-23.jpg"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/NY-.png"/>
+<img alt="The New York Times" decoding="async" loading="lazy" src="/media/legacy/NY-.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/quora.png"/>
+<img alt="Quora" decoding="async" loading="lazy" src="/media/legacy/quora.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/refinery29.png"/>
+<img alt="Refinery29" decoding="async" loading="lazy" src="/media/legacy/refinery29.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/rwjf-logo.png"/>
+<img alt="Robert Wood Johnson Foundation" decoding="async" loading="lazy" src="/media/legacy/rwjf-logo.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Salesforce.png"/>
+<img alt="Salesforce" decoding="async" loading="lazy" src="/media/legacy/Salesforce.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/seat_geek.png"/>
+<img alt="SeatGeek" decoding="async" loading="lazy" src="/media/legacy/seat_geek.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/sparklogo.jpg"/>
+<img alt="Spark Capital" decoding="async" loading="lazy" src="/media/legacy/sparklogo.jpg"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/USAToday.png"/>
+<img alt="USA Today" decoding="async" loading="lazy" src="/media/legacy/USAToday.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/Vimeo.png"/>
+<img alt="Vimeo" decoding="async" loading="lazy" src="/media/legacy/Vimeo.png"/>
 
 
-<img alt="" decoding="async" loading="lazy" src="/media/legacy/The_Weather_Channel_logo_.png"/>
+<img alt="The Weather Channel" decoding="async" loading="lazy" src="/media/legacy/The_Weather_Channel_logo_.png"/>
 
 
 <img alt="" decoding="async" loading="lazy" src="/media/legacy/yahoo_logo.png"/>
 
+<img alt="The Wall Street Journal" src="/media/brands/wsj.svg" loading="lazy" decoding="async">
+<img alt="Tribune Media" src="/media/legacy/Tribune-media-1.jpg" loading="lazy" decoding="async">
+<img alt="MarketWatch" src="/media/brands/marketwatch.svg" loading="lazy" decoding="async">
+<img alt="TPG Capital" src="/media/legacy/download-1-1.png" loading="lazy" decoding="async">
+<img alt="People Inc." src="/media/brands/people.svg" loading="lazy" decoding="async">
+<img alt="CNBC" src="/media/brands/cnbc.svg" loading="lazy" decoding="async">
+<img alt="MS NOW" src="/media/brands/msnow.svg" loading="lazy" decoding="async">
+<img alt="Motion.com" src="/media/brands/motion.png" loading="lazy" decoding="async">
 </div>

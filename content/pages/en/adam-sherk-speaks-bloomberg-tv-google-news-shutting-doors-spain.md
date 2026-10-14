@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2015-04-14",
+    "eyebrow": "Research & perspectives / April 14, 2015",
     "title": "Adam Sherk Speaks on Bloomberg TV: “Why Google News Is Shutting Its Doors in Spain”",
     "intro": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -27,7 +31,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2015-04-14"
+        "text": "Research & perspectives / April 14, 2015"
       },
       "slots.intro": {
         "origin": "agent",
@@ -41,6 +45,10 @@
         "origin": "agent",
         "text": "Continue exploring"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
@@ -48,8 +56,15 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive."
   }
 }
 ---

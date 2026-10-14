@@ -11,11 +11,11 @@
   "url": "https://www.definemg.com",
   "urls": {
     "pages/en/contact": "contact",
-    "pages/en/dave-sottimano": "dave-sottimano",
+    "pages/en/dave-sottimano": "team/dave-sottimano",
     "pages/en/our-work": "our-work",
     "pages/en/testimonials": "our-work/testimonials",
     "pages/en/privacy-policy": "privacy-policy",
-    "pages/en/enterprise-seo-training": "service/enterprise-seo-training",
+    "pages/en/enterprise-seo-training": "services/enterprise-seo-training",
     "pages/en/audience-development": "services/audience-development",
     "pages/en/investment-advisory-services": "services/investment-advisory-services",
     "pages/en/search-engine-optimization": "services/search-engine-optimization",

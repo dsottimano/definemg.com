@@ -1,9 +1,9 @@
 {
   "siteName": "Define Media Group",
-  "titleTemplate": "%s \u00b7 Define Media Group",
+  "titleTemplate": "%s · Define Media Group",
   "defaultTitle": "Enterprise SEO & Audience Development",
   "defaultDescription": "Define Media Group is a boutique consulting firm specializing in enterprise audience development, SEO, acquisition diligence, agentic AI, core update remediation, and market gap analysis.",
-  "defaultOgImage": "/media/legacy/DMG-Logox188.png",
+  "defaultOgImage": "/media/social/define-share.png",
   "locale": "en_US",
   "twitter": "",
   "twitterCreator": "",

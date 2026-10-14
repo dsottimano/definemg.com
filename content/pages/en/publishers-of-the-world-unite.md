@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2026-06-09",
+    "eyebrow": "Research & perspectives / June 9, 2026",
     "title": "Publishers of the World, Unite!",
     "intro": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web.",
     "kind": "article",
@@ -19,20 +19,24 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ],
     "heroImage": "/media/legacy/publishers-unite-hero-image-scaled.webp",
     "heroImageAlt": "Publishers of the World, Unite!"
   },
   "seo": {
-    "metaDescription": "AI Overviews have cut organic search traffic 42%, but breaking news is thriving. Our data reveals how Discover is driving publisher growth in the age of AI."
+    "metaDescription": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
   },
   "lanzaProvenance": {
     "version": 1,
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2026-06-09"
+        "text": "Research & perspectives / June 9, 2026"
       },
       "slots.intro": {
         "origin": "agent",
@@ -46,6 +50,10 @@
         "origin": "agent",
         "text": "Continue exploring"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
@@ -53,6 +61,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

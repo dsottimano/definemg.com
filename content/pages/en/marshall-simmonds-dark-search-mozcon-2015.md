@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2017-09-29",
+    "eyebrow": "Archived presentation / MozCon 2015",
     "title": "MozCon Presentation - Dark Search, Mobile and Social - Run Rabbit Run!",
     "intro": "A MozCon presentation exploring dark search, mobile traffic and social attribution.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -27,7 +31,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2017-09-29"
+        "text": "Archived presentation / MozCon 2015"
       },
       "slots.intro": {
         "origin": "agent",
@@ -41,6 +45,10 @@
         "origin": "agent",
         "text": "Continue exploring"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
@@ -48,8 +56,15 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution."
   }
 }
 ---

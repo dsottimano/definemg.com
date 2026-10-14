@@ -11,6 +11,22 @@
           "url": "/team/"
         },
         {
+          "label": "Marshall Simmonds",
+          "url": "/team/marshall-simmonds/"
+        },
+        {
+          "label": "Adam Sherk",
+          "url": "/team/adam-sherk/"
+        },
+        {
+          "label": "Shahzad Abbas",
+          "url": "/team/shahzad-abbas/"
+        },
+        {
+          "label": "Dave Sottimano",
+          "url": "/team/dave-sottimano/"
+        },
+        {
           "label": "Our work",
           "url": "/our-work/"
         },
@@ -47,6 +63,14 @@
         {
           "label": "Contact",
           "url": "/contact/"
+        },
+        {
+          "label": "Privacy",
+          "url": "/privacy-policy/"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/company/define-media-group-inc."
         }
       ],
       "tablet": null,

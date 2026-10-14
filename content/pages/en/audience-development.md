@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "Audience development",
     "title": "Audience Development",
-    "intro": "Connect search, content, marketing and business development into a coordinated audience strategy.",
+    "intro": "Connect search, AI discovery, content and marketing into an audience strategy built around durable relationships with your readers.",
     "kind": "service",
     "railLabel": "Explore the service",
     "relatedTitle": "Related expertise",
@@ -23,6 +23,10 @@
       {
         "label": "Our executive team",
         "url": "/team/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -35,7 +39,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "Connect search, content, marketing and business development into a coordinated audience strategy."
+        "text": "Connect search, AI discovery, content and marketing into an audience strategy built around durable relationships with your readers."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -44,6 +48,10 @@
       "slots.relatedTitle": {
         "origin": "agent",
         "text": "Related expertise"
+      },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Build a coordinated audience strategy across search, editorial and marketing, with guidance on AI discovery and publisher growth."
       },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
@@ -56,8 +64,15 @@
       "slots.relatedLinks.2.label": {
         "origin": "agent",
         "text": "Our executive team"
+      },
+      "slots.relatedLinks.3.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Build a coordinated audience strategy across search, editorial and marketing, with guidance on AI discovery and publisher growth."
   }
 }
 ---

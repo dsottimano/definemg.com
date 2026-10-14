@@ -1,3 +1,19 @@
+# Launch review follow-up — 2026-10-14
+
+Current work implements the boss’s launch review and the user-approved blue design. See [the itemized checklist](launch-review.md) and [private Google Workspace form setup](../integrations/contact/README.md).
+
+Implemented: blue design, typography, portrait and logo updates, team dropdown, current-page rail filtering, Insights/archive dates, route redirects, unique descriptions, sitemap, Pages crawl exclusion, 1200×630 social image and private-recipient contact integration. Public content remains editable in Pages → English. Contact now uses `define-contact`; homepage adds editable team and testimonial-image fields. Historical body text and quotes are preserved except explicitly requested corrections. All old client logos remain.
+
+Validation: zero site-check errors (seven reviewed same-origin template advisories), full 38-page build, 36 distinct descriptions and sitemap entries, eight mocked contact tests, Cloudflare function compilation, and 72 desktop/mobile route checks without overflow, broken images, H1 failures or JavaScript exceptions. Hover/keyboard/mobile/no-JS navigation verified. Contact field mutation verified in DOM text, preserving provenance spans, then restored and rebuilt. No actual email was sent and authenticated CMS editing was not exercised.
+
+Remaining: Workspace owner authorization, Apps Script/Turnstile/Pages configuration and inbox verification; approved privacy policy; custom-domain launch and removal of the prelaunch robots restriction. Local Wrangler is in a different account; publishing uses the existing GitHub integration. Preserve these as blockers, not completed delivery.
+
+Remote main/staging advanced together to `3abdda1` (Lanza 0.1.29 upgrade) during implementation; no concurrent content edits. Reconcile that upgrade and the new sitemap dependency lock before publishing. Tenant package is 0.1.29; no shared Lanza software changes or new npm release are needed.
+
+Historical recovery note: the sibling rescue and old checkouts cited below were removed at the user’s explicit request. This tenant retains the migrated assets/content.
+
+---
+
 # Interior design overhaul — 2026-10-13
 
 Current request: overhaul every interior page while preserving the approved homepage. All 35 interior CMS entries now use tailored layouts: a dedicated Services preset, service detail navigation, portrait-led profiles and team cards, illustrated journal/case-study cards, full-color client gallery, and colored testimonial columns. CSS geometry provides motion with reduced-motion support. Original service copy, profile/article prose and all 15 testimonials are preserved; new editorial introductions carry agent provenance. No email delivery was added.

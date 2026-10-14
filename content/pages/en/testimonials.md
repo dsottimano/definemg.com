@@ -7,7 +7,7 @@
   "slots": {
     "eyebrow": "In our clients’ words",
     "title": "Client Testimonials",
-    "intro": "Perspectives from the leaders, clients and colleagues who have worked with Define.",
+    "intro": "Perspectives from leaders who have worked with Define. Their experience informs our continuing work across search, AI discovery and audience strategy.",
     "kind": "testimonials",
     "railLabel": "Client perspectives",
     "relatedTitle": "Explore Define",
@@ -21,13 +21,13 @@
         "url": "/team/"
       },
       {
-        "label": "Client testimonials",
-        "url": "/our-work/testimonials/"
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
   "seo": {
-    "metaDescription": "Define Media Group client testimonials from some of publishing's leading network executives and influencers."
+    "metaDescription": "Hear from publishing and business leaders about working with Define on enterprise SEO, audience strategy and organizational growth."
   },
   "lanzaProvenance": {
     "version": 1,
@@ -38,7 +38,7 @@
       },
       "slots.intro": {
         "origin": "agent",
-        "text": "Perspectives from the leaders, clients and colleagues who have worked with Define."
+        "text": "Perspectives from leaders who have worked with Define. Their experience informs our continuing work across search, AI discovery and audience strategy."
       },
       "slots.railLabel": {
         "origin": "agent",
@@ -47,6 +47,10 @@
       "slots.relatedTitle": {
         "origin": "agent",
         "text": "Explore Define"
+      },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Hear from publishing and business leaders about working with Define on enterprise SEO, audience strategy and organizational growth."
       },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
@@ -58,7 +62,7 @@
       },
       "slots.relatedLinks.2.label": {
         "origin": "agent",
-        "text": "Client testimonials"
+        "text": "Contact Us"
       }
     }
   }

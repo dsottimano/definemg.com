@@ -23,6 +23,10 @@
       {
         "label": "Client testimonials",
         "url": "/our-work/testimonials/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -41,6 +45,10 @@
         "origin": "agent",
         "text": "Explore Define"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Privacy policy information for the Define Media Group website."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "Our services"
@@ -52,8 +60,15 @@
       "slots.relatedLinks.2.label": {
         "origin": "agent",
         "text": "Client testimonials"
+      },
+      "slots.relatedLinks.3.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "Privacy policy information for the Define Media Group website."
   }
 }
 ---

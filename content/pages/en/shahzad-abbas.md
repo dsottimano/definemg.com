@@ -19,13 +19,17 @@
       {
         "label": "Our work",
         "url": "/our-work/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ],
     "heroImage": "/media/legacy/shahzad-abbas-headshot-2025-e1760037096944.jpg",
     "heroImageAlt": "Shahzad Abbas"
   },
   "seo": {
-    "metaDescription": "Since joining Define in early 2011, Shahzad has helped shape data-driven marketing strategies for influential brands such as AARP, PwC, Carter’s, The Wall Street Journal and the NBA."
+    "metaDescription": "Meet Shahzad Abbas, Define’s VP of AI and Search Strategy, advising brands on data-driven growth and emerging search experiences."
   },
   "lanzaProvenance": {
     "version": 1,
@@ -42,6 +46,10 @@
         "origin": "agent",
         "text": "Meet the team"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Meet Shahzad Abbas, Define’s VP of AI and Search Strategy, advising brands on data-driven growth and emerging search experiences."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "Our executive team"
@@ -49,6 +57,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our work"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }
@@ -64,3 +76,4 @@
 <p>His deep understanding of analytics and AI tools allows Define to help clients harness data insights, measure performance across emerging platforms, and aggressively differentiate themselves in an AI-first marketing environment.</p>
 <p>Shahzad studied English at the University of Pennsylvania and completed graduate work at the University of Cambridge.
 	</p>
+<p><span data-lanza-origin="agent">Explore Define’s current research on <a href="/breaking-news-thrives-in-the-age-of-ai/">AI Overviews and publisher audiences</a> and <a href="/publishers-of-the-world-unite/">AI crawlers and content licensing</a>.</span></p>

@@ -1,0 +1,175 @@
+{
+  "name": "define-contact",
+  "label": "Define \u2014 Contact form",
+  "body": true,
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "intro",
+      "label": "Intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "kind",
+      "label": "Page design",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "heroImage",
+      "label": "Featured image",
+      "widget": "image",
+      "required": false
+    },
+    {
+      "name": "heroImageAlt",
+      "label": "Image description",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "relatedTitle",
+      "label": "Related links heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "railLabel",
+      "label": "Page navigation heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "relatedLinks",
+      "label": "Related pages",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "label": "Link label",
+          "widget": "string"
+        },
+        {
+          "name": "url",
+          "label": "Destination",
+          "widget": "string"
+        }
+      ]
+    },
+    {
+      "name": "formTitle",
+      "label": "formTitle",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "nameLabel",
+      "label": "nameLabel",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "emailLabel",
+      "label": "emailLabel",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "companyLabel",
+      "label": "companyLabel",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "messageLabel",
+      "label": "messageLabel",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "websiteLabel",
+      "label": "websiteLabel",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "privacyNote",
+      "label": "privacyNote",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "submitLabel",
+      "label": "submitLabel",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "loadingMessage",
+      "label": "loadingMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "sendingMessage",
+      "label": "sendingMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "sentMessage",
+      "label": "sentMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "unavailableMessage",
+      "label": "unavailableMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "verificationMessage",
+      "label": "verificationMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "invalidMessage",
+      "label": "invalidMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "noScriptMessage",
+      "label": "noScriptMessage",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "alternativeUrl",
+      "label": "alternativeUrl",
+      "widget": "string",
+      "group": "Contact form"
+    },
+    {
+      "name": "alternativeLabel",
+      "label": "alternativeLabel",
+      "widget": "string",
+      "group": "Contact form"
+    }
+  ]
+}

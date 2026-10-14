@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2015-04-14",
+    "eyebrow": "Research & perspectives / April 14, 2015",
     "title": "The Facebook and Google Duopoly",
     "intro": "An analysis of two platforms and their influence on publisher audiences.",
     "kind": "article",
@@ -19,6 +19,10 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ]
   },
@@ -27,7 +31,7 @@
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2015-04-14"
+        "text": "Research & perspectives / April 14, 2015"
       },
       "slots.intro": {
         "origin": "agent",
@@ -41,6 +45,10 @@
         "origin": "agent",
         "text": "Continue exploring"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
@@ -48,8 +56,15 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
+  },
+  "seo": {
+    "metaDescription": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
   }
 }
 ---

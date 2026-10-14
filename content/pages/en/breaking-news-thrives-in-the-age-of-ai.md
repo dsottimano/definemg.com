@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Research & perspectives / 2026-03-09",
+    "eyebrow": "Research & perspectives / March 9, 2026",
     "title": "BREAKING! News Thrives in the Age of AI",
     "intro": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews.",
     "kind": "article",
@@ -19,20 +19,24 @@
       {
         "label": "Our services",
         "url": "/services/"
+      },
+      {
+        "label": "Contact Us",
+        "url": "/contact/"
       }
     ],
     "heroImage": "/media/legacy/breaking-news-hero-image.jpg",
     "heroImageAlt": "Breaking News Thrives in the Age of AI - newspaper headline illustration"
   },
   "seo": {
-    "metaDescription": "AI Overviews have cut organic search traffic 42%, but breaking news is thriving. Our data reveals how Discover is driving publisher growth in the age of AI."
+    "metaDescription": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
   },
   "lanzaProvenance": {
     "version": 1,
     "fields": {
       "slots.eyebrow": {
         "origin": "agent",
-        "text": "Research & perspectives / 2026-03-09"
+        "text": "Research & perspectives / March 9, 2026"
       },
       "slots.intro": {
         "origin": "agent",
@@ -46,6 +50,10 @@
         "origin": "agent",
         "text": "Continue exploring"
       },
+      "seo.metaDescription": {
+        "origin": "agent",
+        "text": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
+      },
       "slots.relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
@@ -53,6 +61,10 @@
       "slots.relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
+      },
+      "slots.relatedLinks.2.label": {
+        "origin": "agent",
+        "text": "Contact Us"
       }
     }
   }

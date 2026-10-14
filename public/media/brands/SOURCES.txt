@@ -1,0 +1,12 @@
+Brand assets for the requested past/present client and testimonial displays, retrieved 2026-10-14.
+People Inc.: inline header SVG from https://www.people.inc/ (viewBox casing normalized for standalone SVG).
+CNBC: https://static-redesign.cnbcfm.com/dist/d6085c9e81f4d7365c8d.svg linked from https://www.cnbc.com/ . White letter paths changed to black for the white logo box; blue symbol retained.
+MS NOW: inline labeled logo SVG from https://www.ms.now/ .
+WSJ: https://upload.wikimedia.org/wikipedia/commons/4/4a/WSJ_Logo.svg
+MarketWatch: https://upload.wikimedia.org/wikipedia/en/0/0c/MarketWatch_Logo.svg
+Motion.com: https://upload.wikimedia.org/wikipedia/en/7/7c/Motion_Industries_Logo2.png (Motion Industries, not the unrelated productivity app).
+GoodRx: https://upload.wikimedia.org/wikipedia/commons/d/da/GoodRx_logo_horizontal.svg
+Babbel: official structured-data logo from https://www.babbel.com/ hosted at https://cdn.cookielaw.org/logos/1564af4b-0fa8-4702-befe-a6eb2a868167/7c851903-c75f-4686-8496-3bd2b43c2fe3/ba7316c8-0571-44e5-b87d-1fb823502db2/Babbel_Logo.png
+Great Hill Partners: inline header SVG from https://www.greathillpartners.com/ . currentColor resolved to its original dark header color.
+Tribune Media, TPG Capital and Yahoo: retained original local assets in ../legacy/.
+Higher-resolution Dave headshot: https://www.definemg.com/wp-content/uploads/2015/08/Dave-Sottimano.jpg saved unchanged as ../legacy/Dave-Sottimano-original.jpg (481×538).

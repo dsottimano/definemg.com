@@ -1,0 +1,728 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Define helps publishers grow audiences through enterprise SEO, AI search strategy, editorial expertise and agentic AI research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/contact/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Talk with Define about audience growth, enterprise SEO, AI search, agentic AI and content licensing for your publishing business.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/dave-sottimano/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Dave Sottimano, Define’s research and programming lead, working on technical SEO, AI search and practical research for publishers.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/our-work/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Explore the publishers, brands and investors Define has worked with on audience development, enterprise SEO and digital growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/our-work/testimonials/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Hear from publishing and business leaders about working with Define on enterprise SEO, audience strategy and organizational growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/privacy-policy/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Privacy policy information for the Define Media Group website.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/services/enterprise-seo-training/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Equip editorial, technical and leadership teams with practical enterprise SEO training for search engines, AI Overviews and emerging discovery.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/services/audience-development/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Build a coordinated audience strategy across search, editorial and marketing, with guidance on AI discovery and publisher growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/services/investment-advisory-services/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Search and audience due diligence for media investors, including AI disruption, content licensing and opportunities for portfolio growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/services/search-engine-optimization/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Enterprise SEO for complex websites: technical analysis, editorial workflows, AI search visibility and practical implementation with your team.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano: Define’s team across publishing, enterprise SEO, AI search and research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/adam-sherk/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Adam Sherk, Define’s VP of SEO and Digital Strategy, with expertise in publisher search, news discovery and audience development.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/marshall-simmonds/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Marshall Simmonds, founder of Define, and explore his experience in enterprise SEO, publishing and audience development.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/shahzad-abbas/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Shahzad Abbas, Define’s VP of AI and Search Strategy, advising brands on data-driven growth and emerging search experiences.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/services/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Audience development, enterprise SEO and investment advisory for publishers and brands navigating AI search and changing content economics.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/hearst-increases-search-384-percen/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Hearst needed to educate its technical and editorial teams on SEO and social media best practices across more then 25 sites.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/time-inc-seo-traffic-increase-with-define/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "As Time Inc.’s embedded strategists, we have helped increase traffic to People, MyRecipes, Real Simple and other Time properties.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/ios6-seo-search-traffic-loss/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Apple's switch to iOS 6 causes 9% of search traffic to be incorrectly reported. Find out how you can get your hard-earned search traffic back.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/recover-your-android-4-and-ios-search-traffic/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "In Android 4 and iOS, search referrals aren’t being reported correctly. Here's how you can get your hard-earned mobile search traffic back.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/how-googles-image-search-update-killed-image-seo/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "After Google's Jan 23 image update, our clients experienced a 63% image search loss. Learn more about this issue to help shape your image search strategy.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/dark-google-android-4-and-ios-6-passing-search-referral-data/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Starting Thursday 7/30, we noticed that the Dark Google problem plaguing iOS and Android mobile searches was no longer happening.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/ios-7-dark-google-seo-analytic/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/three-big-traffic-problems-marshall-simmonds-speaking/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds speaking at SEER Interactive's SearchChurch series talking about the perils of image search, the success of mobile search and how to be aware of changes to safe search.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/hey-buzzfeed-search-traffic-is-doing-just-fine/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "BuzzFeed's analysis of social traffic versus search traffic reveals an incorrect measurement and assessment of the publishing industry's referral traffic.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/seo-never-deadits-just-trying-smx-advanced-presentation/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds speaking at Search Engine Land's SMX Advanced Summit Seattle in June of 2014",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/2014-mid-year-digital-traffic-report/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "With 2014 now more than halfway done, we wanted to provide an update on the major search and social trends we're seeing across our network.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/facebook-google-publisher-traffic-analysis/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/download-search-console-url-parameters-painlessly-handy-bookmarklet/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Free JavaScript bookmarklet to download URL parameter example URLs from Google Search Console.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/mozcon-2014-presentation-keep-focus-doughnuts/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds’ archived MozCon 2014 presentation on keeping audience strategy focused on meaningful results.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/marshall-simmonds-dark-search-mozcon-2015/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/adam-sherk-speaks-bloomberg-tv-google-news-shutting-doors-spain/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/mobilegeddon-or-how-i-learned-to-stop-worrying-and-love-our-new-mobile-world/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/breaking-news-thrives-in-the-age-of-ai/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/publishers-of-the-world-unite/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/blog/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Insights from Define on AI Overviews, publisher audiences, content licensing and search, plus an archive of research and presentations.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/our-work/case-studies/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Read Define’s Hearst and Time Inc. case studies, covering SEO training, embedded strategy and long-term publisher audience growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Define helps publishers grow audiences through enterprise SEO, AI search strategy, editorial expertise and agentic AI research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/contact/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Talk with Define about audience growth, enterprise SEO, AI search, agentic AI and content licensing for your publishing business.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/dave-sottimano/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Dave Sottimano, Define’s research and programming lead, working on technical SEO, AI search and practical research for publishers.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/our-work/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Explore the publishers, brands and investors Define has worked with on audience development, enterprise SEO and digital growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/our-work/testimonials/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Hear from publishing and business leaders about working with Define on enterprise SEO, audience strategy and organizational growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/privacy-policy/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Privacy policy information for the Define Media Group website.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/services/enterprise-seo-training/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Equip editorial, technical and leadership teams with practical enterprise SEO training for search engines, AI Overviews and emerging discovery.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/services/audience-development/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Build a coordinated audience strategy across search, editorial and marketing, with guidance on AI discovery and publisher growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/services/investment-advisory-services/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Search and audience due diligence for media investors, including AI disruption, content licensing and opportunities for portfolio growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/services/search-engine-optimization/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Enterprise SEO for complex websites: technical analysis, editorial workflows, AI search visibility and practical implementation with your team.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano: Define’s team across publishing, enterprise SEO, AI search and research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/adam-sherk/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Adam Sherk, Define’s VP of SEO and Digital Strategy, with expertise in publisher search, news discovery and audience development.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/marshall-simmonds/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Marshall Simmonds, founder of Define, and explore his experience in enterprise SEO, publishing and audience development.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/shahzad-abbas/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Shahzad Abbas, Define’s VP of AI and Search Strategy, advising brands on data-driven growth and emerging search experiences.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/services/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Audience development, enterprise SEO and investment advisory for publishers and brands navigating AI search and changing content economics.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/hearst-increases-search-384-percen/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Hearst needed to educate its technical and editorial teams on SEO and social media best practices across more then 25 sites.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/time-inc-seo-traffic-increase-with-define/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "As Time Inc.’s embedded strategists, we have helped increase traffic to People, MyRecipes, Real Simple and other Time properties.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/ios6-seo-search-traffic-loss/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Apple's switch to iOS 6 causes 9% of search traffic to be incorrectly reported. Find out how you can get your hard-earned search traffic back.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/recover-your-android-4-and-ios-search-traffic/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "In Android 4 and iOS, search referrals aren’t being reported correctly. Here's how you can get your hard-earned mobile search traffic back.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/how-googles-image-search-update-killed-image-seo/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "After Google's Jan 23 image update, our clients experienced a 63% image search loss. Learn more about this issue to help shape your image search strategy.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/dark-google-android-4-and-ios-6-passing-search-referral-data/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Starting Thursday 7/30, we noticed that the Dark Google problem plaguing iOS and Android mobile searches was no longer happening.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/ios-7-dark-google-seo-analytic/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/three-big-traffic-problems-marshall-simmonds-speaking/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds speaking at SEER Interactive's SearchChurch series talking about the perils of image search, the success of mobile search and how to be aware of changes to safe search.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/hey-buzzfeed-search-traffic-is-doing-just-fine/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "BuzzFeed's analysis of social traffic versus search traffic reveals an incorrect measurement and assessment of the publishing industry's referral traffic.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/seo-never-deadits-just-trying-smx-advanced-presentation/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds speaking at Search Engine Land's SMX Advanced Summit Seattle in June of 2014",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/2014-mid-year-digital-traffic-report/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "With 2014 now more than halfway done, we wanted to provide an update on the major search and social trends we're seeing across our network.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/facebook-google-publisher-traffic-analysis/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/download-search-console-url-parameters-painlessly-handy-bookmarklet/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Free JavaScript bookmarklet to download URL parameter example URLs from Google Search Console.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/mozcon-2014-presentation-keep-focus-doughnuts/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds’ archived MozCon 2014 presentation on keeping audience strategy focused on meaningful results.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/marshall-simmonds-dark-search-mozcon-2015/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/adam-sherk-speaks-bloomberg-tv-google-news-shutting-doors-spain/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/mobilegeddon-or-how-i-learned-to-stop-worrying-and-love-our-new-mobile-world/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [
+      "http://127.0.0.1:4322/media/legacy/mobilegeddon-4-pre-mobile-update-organic-traffic.png",
+      "http://127.0.0.1:4322/media/legacy/mobilegeddon-5-post-mobile-update-organic-traffic.png",
+      "http://127.0.0.1:4322/media/legacy/mobilegeddon-6-responsive-design-organic-traffic1.png",
+      "http://127.0.0.1:4322/media/legacy/mobilegeddon-7-separate-urls-organic-traffic1.png",
+      "http://127.0.0.1:4322/media/legacy/mobilegeddon-8-dynamic-serving-organic-traffic1.png",
+      "http://127.0.0.1:4322/media/legacy/mobilegeddon-9-nirvana-1024x576.jpg"
+    ],
+    "description": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/breaking-news-thrives-in-the-age-of-ai/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/publishers-of-the-world-unite/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/blog/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Insights from Define on AI Overviews, publisher audiences, content licensing and search, plus an archive of research and presentations.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/our-work/case-studies/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Read Define’s Hearst and Time Inc. case studies, covering SEO training, embedded strategy and long-term publisher audience growth.",
+    "art": 0,
+    "errors": []
+  }
+]

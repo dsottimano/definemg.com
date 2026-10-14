@@ -9,6 +9,26 @@
       "from": "/posts/",
       "to": "/blog/",
       "status": 301
+    },
+    {
+      "from": "/dave-sottimano",
+      "to": "/team/dave-sottimano/",
+      "status": 301
+    },
+    {
+      "from": "/dave-sottimano/",
+      "to": "/team/dave-sottimano/",
+      "status": 301
+    },
+    {
+      "from": "/service/enterprise-seo-training",
+      "to": "/services/enterprise-seo-training/",
+      "status": 301
+    },
+    {
+      "from": "/service/enterprise-seo-training/",
+      "to": "/services/enterprise-seo-training/",
+      "status": 301
     }
   ]
 }

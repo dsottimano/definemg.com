@@ -1,5 +1,17 @@
-// All site code lives in the lanza-site package; this file just hands Astro its
-// config factory. Your content is the content/ and data/ folders next to it.
 import { lanzaConfig } from "lanza-site/astro";
+import sitemap from "@astrojs/sitemap";
+import { copyFile } from "node:fs/promises";
 
-export default lanzaConfig();
+const config = lanzaConfig();
+config.integrations = [
+  sitemap({ filter: (url) => !/\/(admin|style-preview|posts)(\/|$)/.test(new URL(url).pathname) }),
+  {
+    name: "define-sitemap-alias",
+    hooks: {
+      "astro:build:done": async ({ dir }) => {
+        await copyFile(new URL("sitemap-index.xml", dir), new URL("sitemap.xml", dir));
+      },
+    },
+  },
+];
+export default config;

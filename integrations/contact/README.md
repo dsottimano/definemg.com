@@ -1,0 +1,20 @@
+# Private Google Workspace contact delivery
+
+Status: implementation and mocked tests prepared. No Google script or Turnstile widget has been deployed or authorized, no secrets have been installed, and no real inquiry has been sent. The form remains disabled until configured. Keep this a launch blocker until actual delivery is verified.
+
+The browser posts to `/api/contact`. The Pages Function validates bounded fields, same-origin requests and a single-use Turnstile token (hostname and `contact` action). It signs the inquiry with HMAC-SHA256 and posts it to a private-owned Google Apps Script deployment. The script verifies the signature and timestamp, prevents immediate replay under a script lock, and sends plain-text mail using MailApp. Reply-To is the validated visitor address. Recipient address is a Script Property only; it is absent from HTML, browser JavaScript and this repository. No autoresponse is sent.
+
+## One-time owner setup
+
+1. Sign in to the designated Google Workspace account at https://script.google.com/ and create a standalone project. Copy `Code.gs` and `appsscript.json` from this folder. The manifest requests send-mail permission only, not mailbox read access.
+2. In Project Settings → Script Properties, set `CONTACT_RECIPIENT` to the privately agreed destination. Generate a random secret (at least 32 characters) and store it as `CONTACT_SHARED_SECRET`. Keep its value out of chat, source and screenshots.
+3. Deploy → New deployment → Web app. Execute as the Workspace owner and permit access by Anyone. Approve the send-mail authorization. The public endpoint rejects unsigned requests. If Workspace policy forbids anonymous web apps, an administrator must allow this deployment or select an OAuth Gmail API implementation instead; do not weaken authentication to bypass the policy.
+4. Create a managed Turnstile widget in the Cloudflare account that owns this Pages project. Allow `definemg-com-6aba0b1759de.pages.dev`, the intended staging hostname and the custom domains. Add localhost only to a separate development widget if needed.
+5. In that Pages project → Settings → Variables and Secrets, set `CONTACT_GOOGLE_URL` to the Apps Script `/exec` URL, `CONTACT_SHARED_SECRET` to the same private random value, `TURNSTILE_SITE_KEY` to the public site key and `TURNSTILE_SECRET_KEY` to the private verification key. Configure both Production and Preview as intended. Keep secrets encrypted. Redeploy after changing bindings.
+6. Verify GET `/api/contact` reports `ready: true`. Submit one authorized real test, verify inbox receipt and Reply-To, and test validation and failure handling. Readiness alone is not proof of delivery. Do not use Turnstile test keys on public deployments.
+
+There is no Cloudflare account API token in the form or CMS. A hosting owner must configure the integration, while ordinary CMS co-admins can edit the form labels and messages in Pages → English → Contact. The account available to local Wrangler is not the Pages owning account; do not deploy this tenant with that login.
+
+Form labels and status messages are slots declared by `templates/define-contact/fields.json`. `functions/api/contact.js` is tenant-owned and explicitly tracked; Lanza continues generating its other functions. The private Apps Script source stays in `integrations/`, outside public assets. No submission bodies or addresses are logged. Google mail quotas and outages can reject delivery; the UI only reports success after the script acknowledges sending. Inbox placement still requires a real test. If a response is lost after a send, manual retry can duplicate a message; no automatic retry occurs.
+
+References: [Apps Script web apps](https://developers.google.com/apps-script/guides/web), [MailApp](https://developers.google.com/apps-script/reference/mail/mail-app), [Google quotas](https://developers.google.com/apps-script/guides/services/quotas), [Turnstile server validation](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/).

@@ -248,6 +248,18 @@
           "label": "Role",
           "widget": "string",
           "required": false
+        },
+        {
+          "name": "image",
+          "label": "Company logo or portrait",
+          "widget": "image",
+          "required": false
+        },
+        {
+          "name": "imageAlt",
+          "label": "Image description",
+          "widget": "string",
+          "required": false
         }
       ]
     },
@@ -278,6 +290,28 @@
       "widget": "text",
       "group": "Clients",
       "required": false
+    },
+    {
+      "name": "team",
+      "label": "Team portraits",
+      "widget": "list",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "widget": "string"
+        },
+        {
+          "name": "image",
+          "label": "Portrait",
+          "widget": "image"
+        },
+        {
+          "name": "url",
+          "label": "Biography",
+          "widget": "string"
+        }
+      ]
     }
   ]
 }

@@ -60,34 +60,6 @@
       "required": false
     },
     {
-      "name": "diagramCenter",
-      "label": "Diagram center",
-      "widget": "string",
-      "group": "Hero",
-      "required": false
-    },
-    {
-      "name": "diagramTop",
-      "label": "Diagram top",
-      "widget": "string",
-      "group": "Hero",
-      "required": false
-    },
-    {
-      "name": "diagramBottom",
-      "label": "Diagram bottom",
-      "widget": "string",
-      "group": "Hero",
-      "required": false
-    },
-    {
-      "name": "diagramCaption",
-      "label": "Diagram caption",
-      "widget": "string",
-      "group": "Hero",
-      "required": false
-    },
-    {
       "name": "capabilitiesLabel",
       "label": "Section label",
       "widget": "string",
@@ -118,13 +90,6 @@
     {
       "name": "approachTitle",
       "label": "Section heading",
-      "widget": "string",
-      "group": "Approach",
-      "required": false
-    },
-    {
-      "name": "approachQuote",
-      "label": "Pull quote",
       "widget": "string",
       "group": "Approach",
       "required": false
