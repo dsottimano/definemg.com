@@ -8,6 +8,6 @@
     "check:site": "node node_modules/lanza-site/scripts/validate-site.mjs"
   },
   "dependencies": {
-    "lanza-site": "0.1.28"
+    "lanza-site": "0.1.29"
   }
 }
