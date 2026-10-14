@@ -36,3 +36,7 @@ User approved the blue Services design for implementation. Work belongs to this 
 - Authenticated CMS editing, actual Google authorization and real mail delivery remain unverified.
 
 Verification note: one browser pass overlapped the static build overlay and temporarily missed six archive images. The affected route was retested after build completion; every image loaded. Contact field verification checks DOM text because provenance spans may split the serialized HTML string. Both were verification sequencing/assertion issues, not ignored failures.
+
+## Deployment evidence
+
+Deployed source: `1395669aa06c4dd39041ccd74758886d858b8607`, reconciled to both main and staging. Production deployment `7f11194b-c565-4e9e-a2b9-8052241073db`; staging `0a42299d-8e21-4316-943e-d3f586592ec7`. Both Cloudflare checks succeeded. Verified actual https://definemg-com-6aba0b1759de.pages.dev/ and staging hostname: `/sitemap.xml` 200, robots disallow-all and `noindex, nofollow`, old paths 301 to requested destinations, contact readiness false without credentials. Fourteen live browser route/viewport checks passed on home, Services, team, Dave, Our Work, Contact and Insights. See `launch-live-browser-verification.json` and `launch-live-verification.json`. Mocked browser submission tests also pass success/failure messaging, retaining failed input, clearing successful input and resetting Turnstile; no real email was sent.

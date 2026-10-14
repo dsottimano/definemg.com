@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://definemg-com-6aba0b1759de.pages.dev/sitemap.xml",
+    "status": 200,
+    "noindex": true,
+    "location": null
+  },
+  {
+    "url": "https://definemg-com-6aba0b1759de.pages.dev/robots.txt",
+    "status": 200,
+    "noindex": true,
+    "location": null,
+    "disallowAll": true
+  },
+  {
+    "url": "https://definemg-com-6aba0b1759de.pages.dev/dave-sottimano/",
+    "status": 301,
+    "noindex": true,
+    "location": "/team/dave-sottimano/"
+  },
+  {
+    "url": "https://definemg-com-6aba0b1759de.pages.dev/service/enterprise-seo-training/",
+    "status": 301,
+    "noindex": true,
+    "location": "/services/enterprise-seo-training/"
+  },
+  {
+    "url": "https://definemg-com-6aba0b1759de.pages.dev/api/contact",
+    "status": 200,
+    "noindex": true,
+    "location": null,
+    "readiness": {
+      "ready": false,
+      "sitekey": null
+    }
+  },
+  {
+    "url": "https://definemg-com-6aba0b1759de.pages.dev/",
+    "status": 200,
+    "noindex": true,
+    "location": null
+  }
+]

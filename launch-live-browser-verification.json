@@ -1,0 +1,142 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Define helps publishers grow audiences through enterprise SEO, AI search strategy, editorial expertise and agentic AI research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/services/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Audience development, enterprise SEO and investment advisory for publishers and brands navigating AI search and changing content economics.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano: Define’s team across publishing, enterprise SEO, AI search and research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/dave-sottimano/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Dave Sottimano, Define’s research and programming lead, working on technical SEO, AI search and practical research for publishers.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/our-work/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Explore the publishers, brands and investors Define has worked with on audience development, enterprise SEO and digital growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/contact/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Talk with Define about audience growth, enterprise SEO, AI search, agentic AI and content licensing for your publishing business.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "route": "/blog/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Insights from Define on AI Overviews, publisher audiences, content licensing and search, plus an archive of research and presentations.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Define helps publishers grow audiences through enterprise SEO, AI search strategy, editorial expertise and agentic AI research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/services/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Audience development, enterprise SEO and investment advisory for publishers and brands navigating AI search and changing content economics.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Marshall Simmonds, Adam Sherk, Shahzad Abbas and Dave Sottimano: Define’s team across publishing, enterprise SEO, AI search and research.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/team/dave-sottimano/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Meet Dave Sottimano, Define’s research and programming lead, working on technical SEO, AI search and practical research for publishers.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/our-work/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Explore the publishers, brands and investors Define has worked with on audience development, enterprise SEO and digital growth.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/contact/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Talk with Define about audience growth, enterprise SEO, AI search, agentic AI and content licensing for your publishing business.",
+    "art": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "route": "/blog/",
+    "overflow": false,
+    "h1": 1,
+    "broken": [],
+    "description": "Insights from Define on AI Overviews, publisher audiences, content licensing and search, plus an archive of research and presentations.",
+    "art": 0,
+    "errors": []
+  }
+]
