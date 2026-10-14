@@ -29,8 +29,10 @@ User approved the blue Services design for implementation. Work belongs to this 
 - `npm run check:site`: zero errors; seven reviewed advisories for same-origin styles/scripts and the contact form.
 - Full Lanza build passes with 38 static pages. Existing empty-taxonomy and large-bundle warnings remain.
 - 36 unique descriptions; 36 sitemap URLs; original client logos retained; built local links/assets checked.
-- First Chrome pass: 72 route/viewport checks (1440px and 390px), no overflow, broken images, JavaScript errors or H1 count failures. `launch-browser-verification.json` records results. Follow-up interaction checks cover desktop hover, keyboard Escape, mobile toggles, no-JS biography links and unavailable form behavior.
+- Final Chrome evidence: 72 route/viewport checks (1440px and 390px), no overflow, broken images, JavaScript errors or H1 count failures. `launch-browser-verification.json` records results. Follow-up interaction checks cover desktop hover, keyboard Escape, mobile toggles, no-JS biography links and unavailable form behavior.
 - Contact CMS slot mutation: changed the name-label value, built and verified the rendered value, then restored content and rebuilt successfully. Other new homepage fields render the saved portraits and testimonial logos.
 - Eight contact tests pass, covering refusal, origin/field validation, Turnstile hostname/action, HMAC, replay, recipient confinement, quota and provider failures. These use mocked delivery and do not establish inbox delivery.
 - Required Wrangler 3.114.17 Pages Functions compile passes. Local runtime GET `/api/contact` correctly reports unavailable without bindings. That older local runtime warns that it falls back to compatibility date 2025-07-18; no new runtime API is required by this adapter.
 - Authenticated CMS editing, actual Google authorization and real mail delivery remain unverified.
+
+Verification note: one browser pass overlapped the static build overlay and temporarily missed six archive images. The affected route was retested after build completion; every image loaded. Contact field verification checks DOM text because provenance spans may split the serialized HTML string. Both were verification sequencing/assertion issues, not ignored failures.

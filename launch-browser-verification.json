@@ -17,7 +17,8 @@
     "broken": [],
     "description": "Talk with Define about audience growth, enterprise SEO, AI search, agentic AI and content licensing for your publishing business.",
     "art": 0,
-    "errors": []
+    "errors": [],
+    "recheckedAfterBuild": true
   },
   {
     "width": 1440,
@@ -377,7 +378,8 @@
     "broken": [],
     "description": "Talk with Define about audience growth, enterprise SEO, AI search, agentic AI and content licensing for your publishing business.",
     "art": 0,
-    "errors": []
+    "errors": [],
+    "recheckedAfterBuild": true
   },
   {
     "width": 390,
@@ -674,17 +676,11 @@
     "route": "/mobilegeddon-or-how-i-learned-to-stop-worrying-and-love-our-new-mobile-world/",
     "overflow": false,
     "h1": 1,
-    "broken": [
-      "http://127.0.0.1:4322/media/legacy/mobilegeddon-4-pre-mobile-update-organic-traffic.png",
-      "http://127.0.0.1:4322/media/legacy/mobilegeddon-5-post-mobile-update-organic-traffic.png",
-      "http://127.0.0.1:4322/media/legacy/mobilegeddon-6-responsive-design-organic-traffic1.png",
-      "http://127.0.0.1:4322/media/legacy/mobilegeddon-7-separate-urls-organic-traffic1.png",
-      "http://127.0.0.1:4322/media/legacy/mobilegeddon-8-dynamic-serving-organic-traffic1.png",
-      "http://127.0.0.1:4322/media/legacy/mobilegeddon-9-nirvana-1024x576.jpg"
-    ],
+    "broken": [],
     "description": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana.",
     "art": 0,
-    "errors": []
+    "errors": [],
+    "recheckedAfterBuild": true
   },
   {
     "width": 390,

@@ -12,3 +12,5 @@ frontend/
 
 .dev.vars
 .env
+
+.wrangler/

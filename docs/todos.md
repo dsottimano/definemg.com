@@ -8,7 +8,7 @@ Validation: zero site-check errors (seven reviewed same-origin template advisori
 
 Remaining: Workspace owner authorization, Apps Script/Turnstile/Pages configuration and inbox verification; approved privacy policy; custom-domain launch and removal of the prelaunch robots restriction. Local Wrangler is in a different account; publishing uses the existing GitHub integration. Preserve these as blockers, not completed delivery.
 
-Remote main/staging advanced together to `3abdda1` (Lanza 0.1.29 upgrade) during implementation; no concurrent content edits. Reconcile that upgrade and the new sitemap dependency lock before publishing. Tenant package is 0.1.29; no shared Lanza software changes or new npm release are needed.
+Remote main/staging advanced together to `3abdda1` (Lanza 0.1.29 upgrade) during implementation; no concurrent content edits. Reconciled that upgrade in `ba5d445`, retaining 0.1.29 and regenerating the dependency lock for the sitemap integration. Tenant package is 0.1.29; no shared Lanza software changes or new npm release are needed.
 
 Historical recovery note: the sibling rescue and old checkouts cited below were removed at the user’s explicit request. This tenant retains the migrated assets/content.
 
