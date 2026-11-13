@@ -1,3 +1,13 @@
+# Domain launch prep — 2026-11-13
+
+- Robots `Disallow: /` removed in `1e35331` (main + staging); live on the production pages.dev URL. `pages.dev` hosts stay `noindex` through `public/_headers`.
+- Pages project to launch: `definemg-com-6aba0b1759de` in Marshall's Cloudflare account (`9e7fd9db71204d1eba97ddd932e2ccbc`), zone `definemg.com` in the same account. No custom domain attached yet.
+- A second project, `define-media-group-726250752095` (repo `DefineMG/define-media-group`), serves only the starter placeholder. Left untouched.
+- Blocker: Wrangler OAuth reaches the account but cannot read or edit DNS records. Attach `www.definemg.com` and `definemg.com` in the dashboard, or supply a DNS-edit API token. Apex and `www` still proxy to the old WordPress site on Flywheel.
+- Mail is Google Workspace (MX `smtp.google.com`, Google DKIM) and is not touched by the web flip. No SPF or DMARC record exists.
+
+---
+
 # Launch review follow-up — 2026-10-14
 
 Current work implements the boss’s launch review and the user-approved blue design. See [the itemized checklist](launch-review.md) and [private Google Workspace form setup](../integrations/contact/README.md).
