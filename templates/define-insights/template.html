@@ -1,0 +1,15 @@
+<div class="di-page" data-kind="{{ kind }}">
+<header class="di-hero">
+  <div class="di-wrap di-hero-grid">
+    <div class="di-hero-copy"><p class="di-eyebrow">{{ eyebrow }}</p><h1 class="di-title">{{ title }}</h1>{{#if intro}}<p class="di-intro">{{ intro }}</p>{{/if}}</div>
+  </div>
+  <div class="di-hero-rule" aria-hidden="true"><span></span></div>
+</header>
+<div class="di-wrap di-layout">
+  <aside class="di-rail"><div class="di-rail-inner">
+    {{#if railLabel}}<div class="di-contents" hidden><p class="di-rail-label">{{ railLabel }}</p><nav class="di-contents-nav"></nav></div>{{/if}}
+    {{#if relatedLinks}}<div class="di-related"><p class="di-rail-label">{{ relatedTitle }}</p><nav>{{#each relatedLinks}}<a href="{{ url }}"><span>{{ label }}</span><span aria-hidden="true">↗</span></a>{{/each}}</nav></div>{{/if}}
+  </div></aside>
+  <article class="di-prose"><div class="define-journal-grid define-journal-latest">{{#each latest}}<article class="define-journal-card">{{#if featuredImage}}<a aria-label="{{ title }}" class="define-journal-image" href="{{ url }}"><img alt="{{ featuredImageAlt }}" decoding="async" loading="lazy" src="{{ featuredImage }}"/></a>{{/if}}<time class="define-journal-date" datetime="{{ date }}">{{ dateLong }}</time><h2><a href="{{ url }}">{{ title }}</a></h2><p class="define-journal-excerpt">{{ description }}</p></article>{{/each}}</div>{{#if rest}}<h2 id="research-archive">{{ archiveHeading }}</h2>{{#if archiveIntro}}<p>{{ archiveIntro }}</p>{{/if}}<div class="define-journal-grid define-journal-archive">{{#each rest}}<article class="define-journal-card">{{#if featuredImage}}<a aria-label="{{ title }}" class="define-journal-image" href="{{ url }}"><img alt="{{ featuredImageAlt }}" decoding="async" loading="lazy" src="{{ featuredImage }}"/></a>{{/if}}<time class="define-journal-date" datetime="{{ date }}">{{ dateLong }}</time><h2><a href="{{ url }}">{{ title }}</a></h2><p class="define-journal-excerpt">{{ description }}</p></article>{{/each}}</div>{{/if}}</article>
+</div>
+</div>

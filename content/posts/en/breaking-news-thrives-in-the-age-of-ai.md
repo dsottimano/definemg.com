@@ -3,7 +3,9 @@
   "title": "BREAKING! News Thrives in the Age of AI",
   "pubDate": "2026-03-09",
   "draft": false,
-  "description": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery.",
+  "description": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews.",
+  "featuredImage": "/media/legacy/breaking-news-hero-image.jpg",
+  "featuredImageAlt": "Breaking News Thrives in the Age of AI - newspaper headline illustration",
   "seo": {
     "metaDescription": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
   },
@@ -54,7 +56,7 @@
       },
       "description": {
         "origin": "agent",
-        "text": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
+        "text": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews."
       },
       "relatedLinks.0.label": {
         "origin": "agent",

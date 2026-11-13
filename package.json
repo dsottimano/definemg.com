@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",
-    "lanza-site": "0.1.31"
+    "lanza-site": "0.1.32"
   }
 }

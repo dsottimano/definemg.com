@@ -3,7 +3,9 @@
   "title": "Hey BuzzFeed, Search Traffic is Doing Just Fine",
   "pubDate": "2014-02-06",
   "draft": false,
-  "description": "BuzzFeed's analysis of social traffic versus search traffic reveals an incorrect measurement and assessment of the publishing industry's referral traffic.",
+  "description": "A closer examination of the relationship between search, social and publisher traffic.",
+  "featuredImage": "/media/legacy/BuzzFeed-Facebook-traffic2.jpg",
+  "featuredImageAlt": "BuzzFeed Facebook traffic",
   "seo": {
     "metaDescription": "BuzzFeed's analysis of social traffic versus search traffic reveals an incorrect measurement and assessment of the publishing industry's referral traffic."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "A closer examination of the relationship between search, social and publisher traffic."
       }
     }
   }

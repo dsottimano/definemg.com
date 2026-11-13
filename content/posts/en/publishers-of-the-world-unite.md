@@ -3,7 +3,8 @@
   "title": "Publishers of the World, Unite!",
   "pubDate": "2026-06-09",
   "draft": false,
-  "description": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web.",
+  "description": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web.",
+  "featuredImage": "/media/legacy/publishers-unite-hero-image-scaled.webp",
   "seo": {
     "metaDescription": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
   },
@@ -54,7 +55,7 @@
       },
       "description": {
         "origin": "agent",
-        "text": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
+        "text": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web."
       },
       "relatedLinks.0.label": {
         "origin": "agent",

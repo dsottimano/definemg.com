@@ -1,0 +1,86 @@
+{
+  "name": "define-insights",
+  "label": "Define \u2014 Insights index",
+  "body": false,
+  "listing": {
+    "of": "posts",
+    "item": [
+      "title",
+      "description",
+      "featuredImage",
+      "featuredImageAlt"
+    ],
+    "sortBy": "pubDate",
+    "order": "desc",
+    "date": "pubDate",
+    "latest": 2
+  },
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "intro",
+      "label": "Intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "kind",
+      "label": "Page design",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "relatedTitle",
+      "label": "Related links heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "railLabel",
+      "label": "Page navigation heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "relatedLinks",
+      "label": "Related pages",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "label": "Link label",
+          "widget": "string"
+        },
+        {
+          "name": "url",
+          "label": "Destination",
+          "widget": "string"
+        }
+      ]
+    },
+    {
+      "name": "archiveHeading",
+      "label": "Archive heading",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "archiveIntro",
+      "label": "Archive introduction",
+      "widget": "text",
+      "required": false
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "title": "MozCon Presentation - Dark Search, Mobile and Social - Run Rabbit Run!",
   "pubDate": "2017-09-29",
   "draft": false,
-  "description": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution.",
+  "description": "A MozCon presentation exploring dark search, mobile traffic and social attribution.",
   "seo": {
     "metaDescription": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution."
   },
@@ -52,7 +52,7 @@
       },
       "description": {
         "origin": "agent",
-        "text": "Marshall Simmonds’ archived MozCon 2015 presentation exploring dark search, mobile traffic and social attribution."
+        "text": "A MozCon presentation exploring dark search, mobile traffic and social attribution."
       },
       "relatedLinks.0.label": {
         "origin": "agent",

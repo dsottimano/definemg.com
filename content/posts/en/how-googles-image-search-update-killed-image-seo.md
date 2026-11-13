@@ -3,7 +3,9 @@
   "title": "How Google’s Image Search Update Killed Image SEO",
   "pubDate": "2013-04-15",
   "draft": false,
-  "description": "After Google's Jan 23 image update, our clients experienced a 63% image search loss. Learn more about this issue to help shape your image search strategy.",
+  "description": "What a change to Google Images meant for the publishers behind the pictures.",
+  "featuredImage": "/media/legacy/image-search-old-vs-new-interface.png",
+  "featuredImageAlt": "Image search - a comparison of the old vs the new interface",
   "seo": {
     "metaDescription": "After Google's Jan 23 image update, our clients experienced a 63% image search loss. Learn more about this issue to help shape your image search strategy."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "What a change to Google Images meant for the publishers behind the pictures."
       }
     }
   }

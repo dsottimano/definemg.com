@@ -3,7 +3,9 @@
   "title": "Case Study: Utilizing Define as Embedded Strategists, Time Inc. Experiences Long-Term Traffic Gains",
   "pubDate": "2012-02-07",
   "draft": false,
-  "description": "As Time Inc.’s embedded strategists, we have helped increase traffic to People, MyRecipes, Real Simple and other Time properties.",
+  "description": "An embedded approach to enterprise SEO, built around the teams and publications at Time Inc.",
+  "featuredImage": "/media/legacy/time-inc-logo.gif",
+  "featuredImageAlt": "Time Inc Logo",
   "seo": {
     "metaDescription": "As Time Inc.’s embedded strategists, we have helped increase traffic to People, MyRecipes, Real Simple and other Time properties."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "An embedded approach to enterprise SEO, built around the teams and publications at Time Inc."
       }
     }
   }

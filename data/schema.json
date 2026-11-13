@@ -102,6 +102,12 @@
         "required": false
       },
       {
+        "name": "featuredImageAlt",
+        "label": "Featured image description",
+        "widget": "string",
+        "required": false
+      },
+      {
         "name": "categories",
         "label": "Categories",
         "widget": "relation",

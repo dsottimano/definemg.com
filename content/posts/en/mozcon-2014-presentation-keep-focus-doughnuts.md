@@ -3,7 +3,7 @@
   "title": "MozCon Presentation – Keep the Focus on the Doughnuts",
   "pubDate": "2017-09-29",
   "draft": false,
-  "description": "Marshall Simmonds’ archived MozCon 2014 presentation on keeping audience strategy focused on meaningful results.",
+  "description": "Marshall Simmonds’ MozCon presentation on keeping audience strategy in focus.",
   "seo": {
     "metaDescription": "Marshall Simmonds’ archived MozCon 2014 presentation on keeping audience strategy focused on meaningful results."
   },
@@ -52,7 +52,7 @@
       },
       "description": {
         "origin": "agent",
-        "text": "Marshall Simmonds’ archived MozCon 2014 presentation on keeping audience strategy focused on meaningful results."
+        "text": "Marshall Simmonds’ MozCon presentation on keeping audience strategy in focus."
       },
       "relatedLinks.0.label": {
         "origin": "agent",

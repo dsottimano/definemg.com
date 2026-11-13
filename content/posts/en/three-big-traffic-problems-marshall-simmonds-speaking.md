@@ -3,7 +3,7 @@
   "title": "Three Really Big Traffic Problems You May Not Know You Have - Video Presentation",
   "pubDate": "2013-12-17",
   "draft": false,
-  "description": "Marshall Simmonds speaking at SEER Interactive's SearchChurch series talking about the perils of image search, the success of mobile search and how to be aware of changes to safe search.",
+  "description": "Marshall Simmonds on the traffic measurement problems hiding in plain sight.",
   "seo": {
     "metaDescription": "Marshall Simmonds speaking at SEER Interactive's SearchChurch series talking about the perils of image search, the success of mobile search and how to be aware of changes to safe search."
   },
@@ -57,6 +57,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "Marshall Simmonds on the traffic measurement problems hiding in plain sight."
       }
     }
   }

@@ -3,7 +3,9 @@
   "title": "Mobilegeddon or: How I Learned to Stop Worrying and Love Our New Mobile World",
   "pubDate": "2015-07-27",
   "draft": false,
-  "description": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana.",
+  "description": "A look back at the mobile search update and the wider shift in how audiences use the web.",
+  "featuredImage": "/media/legacy/mobilegeddon-2-mary-meeker-mobile-usage-per-day-2-1024x615.png",
+  "featuredImageAlt": "Mary Meeker's Internet Trends 2015 - Mobile Usage per Day",
   "seo": {
     "metaDescription": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "A look back at the mobile search update and the wider shift in how audiences use the web."
       }
     }
   }

@@ -3,7 +3,7 @@
   "title": "Adam Sherk Speaks on Bloomberg TV: “Why Google News Is Shutting Its Doors in Spain”",
   "pubDate": "2015-04-14",
   "draft": false,
-  "description": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive.",
+  "description": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape.",
   "seo": {
     "metaDescription": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive."
   },
@@ -52,7 +52,7 @@
       },
       "description": {
         "origin": "agent",
-        "text": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape. From the Define research archive."
+        "text": "Adam Sherk joins Bloomberg to discuss Google News, Spain and a changing publishing landscape."
       },
       "relatedLinks.0.label": {
         "origin": "agent",

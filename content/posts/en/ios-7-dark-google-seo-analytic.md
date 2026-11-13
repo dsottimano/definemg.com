@@ -3,7 +3,9 @@
   "title": "iOS 7 Released: Dark Google Changes for the SEO & Analytics Communities",
   "pubDate": "2013-10-28",
   "draft": false,
-  "description": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence.",
+  "description": "How the release of iOS 7 changed the picture for search traffic measurement.",
+  "featuredImage": "/media/legacy/SuccessKidios7-298x300.png",
+  "featuredImageAlt": "iOS Search Traffic",
   "seo": {
     "metaDescription": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "How the release of iOS 7 changed the picture for search traffic measurement."
       }
     }
   }

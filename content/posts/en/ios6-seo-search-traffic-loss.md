@@ -3,7 +3,9 @@
   "title": "Hey Siri: Why Am I Losing 9% of My SEO Traffic from iOS?",
   "pubDate": "2012-12-18",
   "draft": false,
-  "description": "Apple's switch to iOS 6 causes 9% of search traffic to be incorrectly reported. Find out how you can get your hard-earned search traffic back.",
+  "description": "An investigation into missing search referrals following the release of iOS 6.",
+  "featuredImage": "/media/legacy/ios-six-9-percent-of-traffic.png",
+  "featuredImageAlt": "Total Weekly iOS Visits - July 29 - Dec 9",
   "seo": {
     "metaDescription": "Apple's switch to iOS 6 causes 9% of search traffic to be incorrectly reported. Find out how you can get your hard-earned search traffic back."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "An investigation into missing search referrals following the release of iOS 6."
       }
     }
   }

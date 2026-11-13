@@ -3,7 +3,9 @@
   "title": "You’re Losing Android 4 Search Traffic. Here’s How to Get it Back.",
   "pubDate": "2013-01-24",
   "draft": false,
-  "description": "In Android 4 and iOS, search referrals aren’t being reported correctly. Here's how you can get your hard-earned mobile search traffic back.",
+  "description": "A practical investigation into search attribution on Android 4 and iOS.",
+  "featuredImage": "/media/legacy/android-4-visits.png",
+  "featuredImageAlt": "Android 4 Visits",
   "seo": {
     "metaDescription": "In Android 4 and iOS, search referrals aren’t being reported correctly. Here's how you can get your hard-earned mobile search traffic back."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "A practical investigation into search attribution on Android 4 and iOS."
       }
     }
   }

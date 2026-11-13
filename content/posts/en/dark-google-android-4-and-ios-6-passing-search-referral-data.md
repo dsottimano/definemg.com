@@ -3,7 +3,9 @@
   "title": "Google Coming Out of the Dark? Android 4 and iOS 6 Passing Search Referral Data",
   "pubDate": "2013-08-01",
   "draft": false,
-  "description": "Starting Thursday 7/30, we noticed that the Dark Google problem plaguing iOS and Android mobile searches was no longer happening.",
+  "description": "Following the changing trail of search referral data on mobile devices.",
+  "featuredImage": "/media/legacy/ios-android-search-data-superman-batman.png",
+  "featuredImageAlt": "iOS and Android Search Data - Superman and Batman High Five",
   "seo": {
     "metaDescription": "Starting Thursday 7/30, we noticed that the Dark Google problem plaguing iOS and Android mobile searches was no longer happening."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "Following the changing trail of search referral data on mobile devices."
       }
     }
   }

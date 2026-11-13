@@ -3,7 +3,9 @@
   "title": "The Facebook and Google Duopoly",
   "pubDate": "2015-04-14",
   "draft": false,
-  "description": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive.",
+  "description": "An analysis of two platforms and their influence on publisher audiences.",
+  "featuredImage": "/media/legacy/fb-2-search-engine-pie-chart.png",
+  "featuredImageAlt": "fb-2-search-engine-pie-chart",
   "seo": {
     "metaDescription": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
   },
@@ -52,7 +54,7 @@
       },
       "description": {
         "origin": "agent",
-        "text": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
+        "text": "An analysis of two platforms and their influence on publisher audiences."
       },
       "relatedLinks.0.label": {
         "origin": "agent",

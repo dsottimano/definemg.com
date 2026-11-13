@@ -3,7 +3,9 @@
   "title": "Download Search Console URL Parameters Painlessly with This Handy Bookmarklet",
   "pubDate": "2016-01-05",
   "draft": false,
-  "description": "Free JavaScript bookmarklet to download URL parameter example URLs from Google Search Console.",
+  "description": "An archived workflow for extracting URL parameter settings from Google Search Console.",
+  "featuredImage": "/media/legacy/show-example-url.png",
+  "featuredImageAlt": "show example url configuration example",
   "seo": {
     "metaDescription": "Free JavaScript bookmarklet to download URL parameter example URLs from Google Search Console."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "An archived workflow for extracting URL parameter settings from Google Search Console."
       }
     }
   }

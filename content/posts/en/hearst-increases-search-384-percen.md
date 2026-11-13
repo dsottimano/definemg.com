@@ -3,7 +3,8 @@
   "title": "Case Study: How SEO Training Builds a Foundation for Success",
   "pubDate": "2012-01-24",
   "draft": false,
-  "description": "Hearst needed to educate its technical and editorial teams on SEO and social media best practices across more then 25 sites.",
+  "description": "How SEO education helped Hearst build a foundation for sustainable search growth.",
+  "featuredImage": "/media/legacy/hearst.jpg",
   "seo": {
     "metaDescription": "Hearst needed to educate its technical and editorial teams on SEO and social media best practices across more then 25 sites."
   },
@@ -57,6 +58,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "How SEO education helped Hearst build a foundation for sustainable search growth."
       }
     }
   }

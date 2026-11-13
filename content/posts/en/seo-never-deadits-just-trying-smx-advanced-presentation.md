@@ -3,7 +3,7 @@
   "title": "\"No, SEO is Never Dead…It’s Just Trying to Be\" - SMX Advanced Presentation",
   "pubDate": "2014-06-25",
   "draft": false,
-  "description": "Marshall Simmonds speaking at Search Engine Land's SMX Advanced Summit Seattle in June of 2014",
+  "description": "Marshall Simmonds’ SMX Advanced presentation on the changing work of search optimization.",
   "seo": {
     "metaDescription": "Marshall Simmonds speaking at Search Engine Land's SMX Advanced Summit Seattle in June of 2014"
   },
@@ -57,6 +57,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "Marshall Simmonds’ SMX Advanced presentation on the changing work of search optimization."
       }
     }
   }

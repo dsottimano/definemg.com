@@ -3,7 +3,9 @@
   "title": "The 2014 Mid-Year Digital Traffic Report",
   "pubDate": "2014-07-15",
   "draft": false,
-  "description": "With 2014 now more than halfway done, we wanted to provide an update on the major search and social trends we're seeing across our network.",
+  "description": "A historical snapshot of search, social and direct traffic across Define’s publisher network.",
+  "featuredImage": "/media/legacy/search-social-direct-percentage.png",
+  "featuredImageAlt": "Search, Social and Direct Percentage of Traffic",
   "seo": {
     "metaDescription": "With 2014 now more than halfway done, we wanted to provide an update on the major search and social trends we're seeing across our network."
   },
@@ -57,6 +59,10 @@
       "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
+      },
+      "description": {
+        "origin": "agent",
+        "text": "A historical snapshot of search, social and direct traffic across Define’s publisher network."
       }
     }
   }
