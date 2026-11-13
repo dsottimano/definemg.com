@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Pre-launch restriction. Remove Disallow only at the approved domain launch.
 Sitemap: https://www.definemg.com/sitemap.xml
