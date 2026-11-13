@@ -5,7 +5,9 @@
 - A second project, `define-media-group-726250752095` (repo `DefineMG/define-media-group`), serves only the starter placeholder. Left untouched.
 - LIVE 2026-11-13: `definemg.com` (added in dashboard, apex CNAME to the pages.dev host) and `www.definemg.com` (added through the Pages API after it returned 522) both serve the Pages site. Canonical, robots `Allow`, sitemap and `/admin/` return 200 on `www`.
 - Open: apex serves the site at 200 instead of redirecting to `www` (only `/` still returns a cached Flywheel 301). Needs a Redirect Rule apex → `https://www.definemg.com/$1` and a cache purge; Wrangler OAuth cannot edit DNS, rules or cache.
-- Mail is Google Workspace (MX `smtp.google.com`, Google DKIM) and is not touched by the web flip. No SPF or DMARC record exists.
+- 2026-11-13 later: the 19 Insights articles now live in **Posts** (`content/posts/en/`), served at root URLs through `templates/define-post` on `lanza-site` 0.1.31 (posts `route` in `data/schema.json`). All 19 return 200 live with unchanged URLs; HTML differs from the Pages version only by `og:type` article and BlogPosting JSON-LD. The Insights index (`content/pages/en/blog.md`) is still hand-written HTML and does not list new posts automatically.
+- Homepage logos enlarged 30%, borders removed, A–Z; duplicate eyebrows removed on Our Work and two service pages. SPF and DMARC (`p=none`) added by Dave.
+- Mail is Google Workspace (MX `smtp.google.com`, Google DKIM) and is not touched by the web flip.
 
 ---
 
