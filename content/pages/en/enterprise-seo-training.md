@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Enterprise SEO training",
+    "eyebrow": "",
     "title": "Enterprise SEO Training",
     "intro": "Make search and AI discovery part of the everyday workflow, with practical training for the people who shape your website.",
     "kind": "service",
@@ -37,10 +37,6 @@
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
-        "origin": "agent",
-        "text": "Enterprise SEO training"
-      },
       "slots.intro": {
         "origin": "agent",
         "text": "Make search and AI discovery part of the everyday workflow, with practical training for the people who shape your website."

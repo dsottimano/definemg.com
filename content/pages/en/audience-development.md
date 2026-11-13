@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Audience development",
+    "eyebrow": "",
     "title": "Audience Development",
     "intro": "Connect search, AI discovery, content and marketing into an audience strategy built around durable relationships with your readers.",
     "kind": "service",
@@ -33,10 +33,6 @@
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
-        "origin": "agent",
-        "text": "Audience development"
-      },
       "slots.intro": {
         "origin": "agent",
         "text": "Connect search, AI discovery, content and marketing into an audience strategy built around durable relationships with your readers."

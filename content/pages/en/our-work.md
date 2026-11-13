@@ -5,7 +5,7 @@
   "template": "full-width",
   "preset": "define-page",
   "slots": {
-    "eyebrow": "Our work",
+    "eyebrow": "",
     "title": "Our Work",
     "intro": "A history of working alongside publishers, consumer brands and investors—and experience that informs our work on AI search, agentic AI and content licensing.",
     "kind": "work",
@@ -36,10 +36,6 @@
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
-        "origin": "agent",
-        "text": "Our work"
-      },
       "slots.intro": {
         "origin": "agent",
         "text": "A history of working alongside publishers, consumer brands and investors—and experience that informs our work on AI search, agentic AI and content licensing."

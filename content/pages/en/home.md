@@ -105,66 +105,58 @@ slots:
       image: /media/brands/greathill.svg
       imageAlt: Great Hill Partners
   clients:
-    - name: Hearst
-      image: /media/legacy/Hearst.png
-    - name: The New York Times
-      image: /media/legacy/NY-.png
-    - name: Bloomberg
-      image: /media/legacy/Bloomberg.png
-    - name: Condé Nast
-      image: /media/legacy/Conde-Nast.png
-    - name: Nexstar Media Group
-      image: /media/legacy/Nexstar_Media_Group_logo_color.svg-1.png
-    - name: CNN
-      image: /media/legacy/C1200px.png
-    - name: The Boston Globe
-      image: /media/legacy/Boston-Globe-Logo-1.png
-    - name: The Economist
-      image: /media/legacy/TheEconomist.png
-    - name: Los Angeles Times
-      image: /media/legacy/images-1-1.png
-    - name: Gannett
-      image: /media/legacy/Gannett-.png
-    - name: NPR
-      image: /media/legacy/NP2018-11-06_8-51-23.jpg
-    - name: USA Today
-      image: /media/legacy/USAToday.png
-    - name: NBCUniversal
-      image: /media/legacy/NBC_Universal-1.webp
-    - name: Tribune Media
-      image: /media/legacy/Tribune-media-1.jpg
-    - name: Consumer Reports
-      image: /media/legacy/2019-06-27_14-46-14.png
-    - name: Refinery29
-      image: /media/legacy/refinery29.png
-    - name: The Weather Channel
-      image: /media/legacy/The_Weather_Channel_logo_.png
-    - name: E! News
-      image: /media/legacy/e_news_online_logo.png
-    - name: iHeartRadio
-      image: /media/legacy/IH2018-11-06_8-55-17.jpg
     - name: AARP
       image: /media/legacy/aarp.png
-    - name: J.Crew
-      image: /media/legacy/JCrew-1.png
-    - name: NBA
-      image: /media/legacy/nba-logo-transparent-1.png
+    - name: Bloomberg
+      image: /media/legacy/Bloomberg.png
+    - name: The Boston Globe
+      image: /media/legacy/Boston-Globe-Logo-1.png
     - name: Carter’s
       image: /media/legacy/carters-1-1.png
-    - name: PwC
-      image: /media/legacy/images.png
+    - name: CNN
+      image: /media/legacy/C1200px.png
+    - name: Condé Nast
+      image: /media/legacy/Conde-Nast.png
+    - name: Consumer Reports
+      image: /media/legacy/2019-06-27_14-46-14.png
+    - name: E! News
+      image: /media/legacy/e_news_online_logo.png
+    - name: The Economist
+      image: /media/legacy/TheEconomist.png
+    - name: Gannett
+      image: /media/legacy/Gannett-.png
+    - name: Hearst
+      image: /media/legacy/Hearst.png
     - name: Human Rights Watch
       image: /media/legacy/HRW-logo.png
     - name: IAC
       image: /media/legacy/interactivecorp.png
+    - name: iHeartRadio
+      image: /media/legacy/IH2018-11-06_8-55-17.jpg
+    - name: J.Crew
+      image: /media/legacy/JCrew-1.png
     - name: KKR
       image: /media/legacy/kkr.png
+    - name: Los Angeles Times
+      image: /media/legacy/images-1-1.png
+    - name: NBA
+      image: /media/legacy/nba-logo-transparent-1.png
+    - name: NBCUniversal
+      image: /media/legacy/NBC_Universal-1.webp
     - name: Netflix
       image: /media/legacy/N2018-11-07_9-13-59.png
-    - name: TPG Capital
-      image: /media/legacy/download-1-1.png
+    - name: The New York Times
+      image: /media/legacy/NY-.png
+    - name: Nexstar Media Group
+      image: /media/legacy/Nexstar_Media_Group_logo_color.svg-1.png
+    - name: NPR
+      image: /media/legacy/NP2018-11-06_8-51-23.jpg
+    - name: PwC
+      image: /media/legacy/images.png
     - name: Quora
       image: /media/legacy/quora.png
+    - name: Refinery29
+      image: /media/legacy/refinery29.png
     - name: Robert Wood Johnson Foundation
       image: /media/legacy/rwjf-logo.png
     - name: Salesforce
@@ -173,8 +165,16 @@ slots:
       image: /media/legacy/seat_geek.png
     - name: Spark Capital
       image: /media/legacy/sparklogo.jpg
+    - name: TPG Capital
+      image: /media/legacy/download-1-1.png
+    - name: Tribune Media
+      image: /media/legacy/Tribune-media-1.jpg
+    - name: USA Today
+      image: /media/legacy/USAToday.png
     - name: Vimeo
       image: /media/legacy/Vimeo.png
+    - name: The Weather Channel
+      image: /media/legacy/The_Weather_Channel_logo_.png
   heroImage: /media/legacy/audience-development.jpg
   heroImageAlt: New York City skyline with the Empire State Building
   clientTitle: Built for publishers. Trusted by leading brands.
