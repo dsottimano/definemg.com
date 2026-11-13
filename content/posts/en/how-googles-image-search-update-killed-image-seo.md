@@ -1,62 +1,60 @@
 ---
 {
   "title": "How Google’s Image Search Update Killed Image SEO",
+  "pubDate": "2013-04-15",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / April 15, 2013",
-    "title": "How Google’s Image Search Update Killed Image SEO",
-    "intro": "What a change to Google Images meant for the publishers behind the pictures.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "After Google's Jan 23 image update, our clients experienced a 63% image search loss. Learn more about this issue to help shape your image search strategy.",
   "seo": {
     "metaDescription": "After Google's Jan 23 image update, our clients experienced a 63% image search loss. Learn more about this issue to help shape your image search strategy."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / April 15, 2013",
+  "intro": "What a change to Google Images meant for the publishers behind the pictures.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / April 15, 2013"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "What a change to Google Images meant for the publishers behind the pictures."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

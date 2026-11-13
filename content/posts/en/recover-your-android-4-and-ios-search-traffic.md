@@ -1,62 +1,60 @@
 ---
 {
   "title": "You’re Losing Android 4 Search Traffic. Here’s How to Get it Back.",
+  "pubDate": "2013-01-24",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / January 24, 2013",
-    "title": "You’re Losing Android 4 Search Traffic. Here’s How to Get it Back.",
-    "intro": "A practical investigation into search attribution on Android 4 and iOS.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "In Android 4 and iOS, search referrals aren’t being reported correctly. Here's how you can get your hard-earned mobile search traffic back.",
   "seo": {
     "metaDescription": "In Android 4 and iOS, search referrals aren’t being reported correctly. Here's how you can get your hard-earned mobile search traffic back."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / January 24, 2013",
+  "intro": "A practical investigation into search attribution on Android 4 and iOS.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / January 24, 2013"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "A practical investigation into search attribution on Android 4 and iOS."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

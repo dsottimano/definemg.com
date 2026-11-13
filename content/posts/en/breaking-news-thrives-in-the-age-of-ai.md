@@ -1,52 +1,50 @@
 ---
 {
   "title": "BREAKING! News Thrives in the Age of AI",
+  "pubDate": "2026-03-09",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / March 9, 2026",
-    "title": "BREAKING! News Thrives in the Age of AI",
-    "intro": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ],
-    "heroImage": "/media/legacy/breaking-news-hero-image.jpg",
-    "heroImageAlt": "Breaking News Thrives in the Age of AI - newspaper headline illustration"
-  },
+  "description": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery.",
   "seo": {
     "metaDescription": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / March 9, 2026",
+  "intro": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews.",
+  "kind": "article",
+  "heroImage": "/media/legacy/breaking-news-hero-image.jpg",
+  "heroImageAlt": "Breaking News Thrives in the Age of AI - newspaper headline illustration",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / March 9, 2026"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "A closer look at breaking news, search visibility and publisher traffic in the age of AI Overviews."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
@@ -54,15 +52,19 @@
         "origin": "agent",
         "text": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
       },
-      "slots.relatedLinks.0.label": {
+      "description": {
+        "origin": "agent",
+        "text": "Define examines how breaking news and Google Discover are reshaping publisher traffic as AI Overviews change search discovery."
+      },
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

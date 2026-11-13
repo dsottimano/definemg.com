@@ -1,62 +1,60 @@
 ---
 {
   "title": "iOS 7 Released: Dark Google Changes for the SEO & Analytics Communities",
+  "pubDate": "2013-10-28",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / October 28, 2013",
-    "title": "iOS 7 Released: Dark Google Changes for the SEO & Analytics Communities",
-    "intro": "How the release of iOS 7 changed the picture for search traffic measurement.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence.",
   "seo": {
     "metaDescription": "With the iOS 7 update, search and direct traffic are being reported accurately. Business decisions based on search metrics can now be made with confidence."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / October 28, 2013",
+  "intro": "How the release of iOS 7 changed the picture for search traffic measurement.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / October 28, 2013"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "How the release of iOS 7 changed the picture for search traffic measurement."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

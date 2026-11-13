@@ -1,47 +1,48 @@
 ---
 {
   "title": "The Facebook and Google Duopoly",
+  "pubDate": "2015-04-14",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / April 14, 2015",
-    "title": "The Facebook and Google Duopoly",
-    "intro": "An analysis of two platforms and their influence on publisher audiences.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
+  "description": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive.",
+  "seo": {
+    "metaDescription": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / April 14, 2015",
+  "intro": "An analysis of two platforms and their influence on publisher audiences.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / April 14, 2015"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "An analysis of two platforms and their influence on publisher audiences."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
@@ -49,22 +50,23 @@
         "origin": "agent",
         "text": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
       },
-      "slots.relatedLinks.0.label": {
+      "description": {
+        "origin": "agent",
+        "text": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
+      },
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }
     }
-  },
-  "seo": {
-    "metaDescription": "An analysis of two platforms and their influence on publisher audiences. From the Define research archive."
   }
 }
 ---

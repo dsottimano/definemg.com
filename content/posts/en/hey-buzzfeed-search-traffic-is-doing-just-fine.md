@@ -1,62 +1,60 @@
 ---
 {
   "title": "Hey BuzzFeed, Search Traffic is Doing Just Fine",
+  "pubDate": "2014-02-06",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / February 6, 2014",
-    "title": "Hey BuzzFeed, Search Traffic is Doing Just Fine",
-    "intro": "A closer examination of the relationship between search, social and publisher traffic.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "BuzzFeed's analysis of social traffic versus search traffic reveals an incorrect measurement and assessment of the publishing industry's referral traffic.",
   "seo": {
     "metaDescription": "BuzzFeed's analysis of social traffic versus search traffic reveals an incorrect measurement and assessment of the publishing industry's referral traffic."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / February 6, 2014",
+  "intro": "A closer examination of the relationship between search, social and publisher traffic.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / February 6, 2014"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "A closer examination of the relationship between search, social and publisher traffic."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

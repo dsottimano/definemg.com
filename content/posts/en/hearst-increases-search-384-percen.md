@@ -1,62 +1,60 @@
 ---
 {
   "title": "Case Study: How SEO Training Builds a Foundation for Success",
+  "pubDate": "2012-01-24",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / January 24, 2012",
-    "title": "Case Study: How SEO Training Builds a Foundation for Success",
-    "intro": "How SEO education helped Hearst build a foundation for sustainable search growth.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "Hearst needed to educate its technical and editorial teams on SEO and social media best practices across more then 25 sites.",
   "seo": {
     "metaDescription": "Hearst needed to educate its technical and editorial teams on SEO and social media best practices across more then 25 sites."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / January 24, 2012",
+  "intro": "How SEO education helped Hearst build a foundation for sustainable search growth.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / January 24, 2012"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "How SEO education helped Hearst build a foundation for sustainable search growth."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

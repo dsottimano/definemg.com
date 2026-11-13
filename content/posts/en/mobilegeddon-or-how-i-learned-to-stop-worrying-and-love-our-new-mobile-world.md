@@ -1,62 +1,60 @@
 ---
 {
   "title": "Mobilegeddon or: How I Learned to Stop Worrying and Love Our New Mobile World",
+  "pubDate": "2015-07-27",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / July 27, 2015",
-    "title": "Mobilegeddon or: How I Learned to Stop Worrying and Love Our New Mobile World",
-    "intro": "A look back at the mobile search update and the wider shift in how audiences use the web.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana.",
   "seo": {
     "metaDescription": "Mobilegeddon is an apocalyptic, destructive term, and it’s time to let it go, because we’re actually in an age of Mobile Nirvana."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / July 27, 2015",
+  "intro": "A look back at the mobile search update and the wider shift in how audiences use the web.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / July 27, 2015"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "A look back at the mobile search update and the wider shift in how audiences use the web."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

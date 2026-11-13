@@ -1,0 +1,16 @@
+<div class="di-page" data-kind="{{ kind }}">
+<header class="di-hero">
+  <div class="di-wrap di-hero-grid">
+    <div class="di-hero-copy"><p class="di-eyebrow">{{ eyebrow }}</p><h1 class="di-title">{{ title }}</h1>{{#if intro}}<p class="di-intro">{{ intro }}</p>{{/if}}</div>
+    {{#if heroImage}}<div class="di-hero-visual"><img class="di-hero-image" src="{{ heroImage }}" alt="{{ heroImageAlt }}" loading="eager"></div>{{/if}}
+  </div>
+  <div class="di-hero-rule" aria-hidden="true"><span></span></div>
+</header>
+<div class="di-wrap di-layout">
+  <aside class="di-rail"><div class="di-rail-inner">
+    {{#if railLabel}}<div class="di-contents" hidden><p class="di-rail-label">{{ railLabel }}</p><nav class="di-contents-nav"></nav></div>{{/if}}
+    {{#if relatedLinks}}<div class="di-related"><p class="di-rail-label">{{ relatedTitle }}</p><nav>{{#each relatedLinks}}<a href="{{ url }}"><span>{{ label }}</span><span aria-hidden="true">↗</span></a>{{/each}}</nav></div>{{/if}}
+  </div></aside>
+  <article class="di-prose">{{{ body }}}</article>
+</div>
+</div>

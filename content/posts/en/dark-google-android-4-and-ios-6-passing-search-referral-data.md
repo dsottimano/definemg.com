@@ -1,62 +1,60 @@
 ---
 {
   "title": "Google Coming Out of the Dark? Android 4 and iOS 6 Passing Search Referral Data",
+  "pubDate": "2013-08-01",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / August 1, 2013",
-    "title": "Google Coming Out of the Dark? Android 4 and iOS 6 Passing Search Referral Data",
-    "intro": "Following the changing trail of search referral data on mobile devices.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ]
-  },
+  "description": "Starting Thursday 7/30, we noticed that the Dark Google problem plaguing iOS and Android mobile searches was no longer happening.",
   "seo": {
     "metaDescription": "Starting Thursday 7/30, we noticed that the Dark Google problem plaguing iOS and Android mobile searches was no longer happening."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / August 1, 2013",
+  "intro": "Following the changing trail of search referral data on mobile devices.",
+  "kind": "article",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / August 1, 2013"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "Following the changing trail of search referral data on mobile devices."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
-      "slots.relatedLinks.0.label": {
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }

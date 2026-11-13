@@ -1,52 +1,50 @@
 ---
 {
   "title": "Publishers of the World, Unite!",
+  "pubDate": "2026-06-09",
   "draft": false,
-  "template": "full-width",
-  "preset": "define-page",
-  "slots": {
-    "eyebrow": "Research & perspectives / June 9, 2026",
-    "title": "Publishers of the World, Unite!",
-    "intro": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web.",
-    "kind": "article",
-    "railLabel": "In this article",
-    "relatedTitle": "Continue exploring",
-    "relatedLinks": [
-      {
-        "label": "All research & articles",
-        "url": "/blog/"
-      },
-      {
-        "label": "Our services",
-        "url": "/services/"
-      },
-      {
-        "label": "Contact Us",
-        "url": "/contact/"
-      }
-    ],
-    "heroImage": "/media/legacy/publishers-unite-hero-image-scaled.webp",
-    "heroImageAlt": "Publishers of the World, Unite!"
-  },
+  "description": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web.",
   "seo": {
     "metaDescription": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
   },
+  "template": "full-width",
+  "eyebrow": "Research & perspectives / June 9, 2026",
+  "intro": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web.",
+  "kind": "article",
+  "heroImage": "/media/legacy/publishers-unite-hero-image-scaled.webp",
+  "heroImageAlt": "Publishers of the World, Unite!",
+  "relatedTitle": "Continue exploring",
+  "railLabel": "In this article",
+  "relatedLinks": [
+    {
+      "label": "All research & articles",
+      "url": "/blog/"
+    },
+    {
+      "label": "Our services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
   "lanzaProvenance": {
     "version": 1,
     "fields": {
-      "slots.eyebrow": {
+      "eyebrow": {
         "origin": "agent",
         "text": "Research & perspectives / June 9, 2026"
       },
-      "slots.intro": {
+      "intro": {
         "origin": "agent",
         "text": "A proposal for publishers responding to AI crawlers, content licensing and the economics of the open web."
       },
-      "slots.railLabel": {
+      "railLabel": {
         "origin": "agent",
         "text": "In this article"
       },
-      "slots.relatedTitle": {
+      "relatedTitle": {
         "origin": "agent",
         "text": "Continue exploring"
       },
@@ -54,15 +52,19 @@
         "origin": "agent",
         "text": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
       },
-      "slots.relatedLinks.0.label": {
+      "description": {
+        "origin": "agent",
+        "text": "A proposal for collective publisher action on AI crawlers, content licensing and the economics of original reporting on the open web."
+      },
+      "relatedLinks.0.label": {
         "origin": "agent",
         "text": "All research & articles"
       },
-      "slots.relatedLinks.1.label": {
+      "relatedLinks.1.label": {
         "origin": "agent",
         "text": "Our services"
       },
-      "slots.relatedLinks.2.label": {
+      "relatedLinks.2.label": {
         "origin": "agent",
         "text": "Contact Us"
       }
