@@ -169,3 +169,7 @@ body:has(.di-page) main {max-width:none;width:100%;margin:0;padding:0}
 .di-page[data-kind="journal"] .define-journal-latest>article:first-of-type {grid-column:auto;padding:30px}
 .di-page[data-kind="journal"] .define-journal-latest>article:first-of-type h2 {font-size:25px}
 .di-page[data-kind="journal"] .define-journal-latest>article:first-of-type .define-journal-image img {height:190px;max-height:190px}
+
+/* Our Work shares the homepage logo tiles, fitted to the editorial column. */
+.di-prose .df-logo-grid {grid-template-columns:repeat(3,minmax(0,1fr));margin-block:28px 20px}
+@media(max-width:760px){.di-prose .df-logo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
